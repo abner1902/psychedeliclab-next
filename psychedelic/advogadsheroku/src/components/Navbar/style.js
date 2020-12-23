@@ -3,8 +3,8 @@ import { NavbarToggler } from "reactstrap"
 
 export const Nav = styled.nav`
     font-size:   30px;
-    color:        #B1A27A;
-    background-color: #292929;
+    color:        white;
+    background-color:  black;
     position: sticky;
     width: 100%;
     left: 0;
@@ -15,12 +15,12 @@ export const Nav = styled.nav`
      @media only screen and (min-width: 600px) {
         
  }a{
-     color: #B1A27A;
+     color: white;
  }
 .navbar{
     
 }.navbar__unordered {
-    color: #B1A27A;
+    color: white;
     position: relative;
     top: 10px;
     font-size: 30px;
@@ -34,6 +34,7 @@ export const Nav = styled.nav`
 }
 .navbar__item {
     list-style-type: none;
+    color: white;
     /* white-space: nowrap; */
     @media (min-width: 600px) {
     margin-left: 15px;
@@ -50,7 +51,7 @@ export const Nav = styled.nav`
         }
         @media (min-width: 808px) {
             border: solid 2px;
-            border-color: #B1A27A;
+            border-color: white;
             padding: 3px 4px;    
             border-radius: 10px;
             /* display: none; */
@@ -61,6 +62,7 @@ export const Nav = styled.nav`
     .navbar__item--number{
         border: none;
         display: none;
+        
         @media (min-width: 608px) {
         }
     }

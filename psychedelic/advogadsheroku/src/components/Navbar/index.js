@@ -18,32 +18,32 @@ const Navba = () => {
 
     const publics =
   router.locale === 'en-US'
-    ? 'Our public'
+    ? 'About'
     : router.locale === 'pt'
-      ? 'Nosso Público'
-      : 'Our public'
+      ? 'Sobre'
+      : 'About'
 
       const refound =
   router.locale === 'en-US'
-    ? 'Refound'
+    ? 'Notícias'
     : router.locale === 'pt'
-      ? 'Ressarcimento'
-      : 'Our public'
+      ? 'News'
+      : 'Notícias'
 
 
       const credit =
   router.locale === 'en-US'
-    ? 'Credit Accumulated'
+    ? 'Cursos'
     : router.locale === 'pt'
-      ? 'Credito acumlado'
-      : 'Credit accumulated'
+      ? 'Courses'
+      : 'Cursos'
 
       const others =
       router.locale === 'en-US'
-        ? 'Others'
+        ? 'Seja Vip'
         : router.locale === 'pt'
-          ? 'Outros'
-          : 'Others'
+          ?   'Vip '
+          : 'Seja Vip'
 
       const about =
   router.locale === 'en-US'
@@ -63,7 +63,7 @@ const Navba = () => {
     <s.Nav>
       <Container >
         <Navbar light expand="md" sticky="top">
-          <h5 className="logomob"><img src="logo.png"/></h5>
+          <h5 className="logomob"><img src="logo.jpg"/></h5>
           <s.NavbarTogglers onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto">
@@ -77,7 +77,7 @@ const Navba = () => {
                     <li className="navbar__item"><a href="#credit">{credit}</a></li>
                     <li className="navbar__item"><a href="#others">{others}</a></li>
                     {/* <li className="navbar__item" ><a href="#about">{about}</a></li> */}
-                    <li className="navbar__item"><a href="#contacts">{contact}</a></li>
+                    {/* <li className="navbar__item"><a href="#contacts">{contact}</a></li> */}
                     <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li>
                     <li className="navbar__item"><span><Link href="/en-US">EN</Link></span></li>
                   </ul>
