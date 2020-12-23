@@ -1,57 +1,93 @@
-import * as s from './style.js'
+import * as s from './style'
 import React, { useState } from 'react'
 import {
   Collapse,
   Navbar,
   Nav
 } from 'reactstrap'
+import { Container } from 'react-bootstrap'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
+// import Ressar from '../ressarcir/index'
 
-const Navba = (props) => {
+const Navba = () => {
   const [isOpen, setIsOpen] = useState(false)
-
   const toggle = () => setIsOpen(!isOpen)
+  const router = useRouter()
+
+
+    const publics =
+  router.locale === 'en-US'
+    ? 'Our public'
+    : router.locale === 'pt'
+      ? 'Nosso Público'
+      : 'Our public'
+
+      const refound =
+  router.locale === 'en-US'
+    ? 'Refound'
+    : router.locale === 'pt'
+      ? 'Ressarcimento'
+      : 'Our public'
+
+
+      const credit =
+  router.locale === 'en-US'
+    ? 'Credit Accumulated'
+    : router.locale === 'pt'
+      ? 'Credito acumlado'
+      : 'Credit accumulated'
+
+      const others =
+      router.locale === 'en-US'
+        ? 'Others'
+        : router.locale === 'pt'
+          ? 'Outros'
+          : 'Others'
+
+      const about =
+  router.locale === 'en-US'
+    ? 'About'
+    : router.locale === 'pt'
+      ? 'Sobre'
+      : 'About'
+
+      const  contact =
+      router.locale === 'en-US'
+        ? 'Contact'
+        : router.locale === 'pt'
+          ? 'Contato'
+          : 'Contact'
 
   return (
-    <div>
-      <s.Navbar>
-        <Navbar light expand="md">
-          <div>
-            <h6 className="logo">Bochnia&munizadvogados</h6>
-          </div>
+    <s.Nav>
+      <Container >
+        <Navbar light expand="md" sticky="top">
+          <h5 className="logomob"><img src="logo.png"/></h5>
           <s.NavbarTogglers onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto">
               <s.Nav className="ml-auto">
-                <s.Naviga>
-                  <s.Navigaa href="#">
-                    Serviços
-                  </s.Navigaa>
-                </s.Naviga>
-                <s.Naviga>
-                  <s.Navigaa href="#">
-                  Quem Somos
-                  </s.Navigaa>
-                </s.Naviga>
-                <s.Naviga>
-                  <s.Navigaa href="#">
-                    Contato
-                  </s.Navigaa>
-                </s.Naviga>
-                <s.Naviga>
-                  <s.Navigaa href="#">
-                    Localização
-                  </s.Navigaa>
-                  {/* <s.Navigaa href="#">
-                   Cadastrar
-                  </s.Navigaa> */}
-                </s.Naviga>
+                <div className="navbar">
+                  <ul className="navbar__unordered">
+                    <li className="navbar__item"> <Link href="/"> Home </Link></li>
+                    <li className="navbar__item" > <a href="#public">{publics}</a></li>
+                    {/* <li className="navbar__item"><a href="#">Blog</a></li> */}
+                    <li className="navbar__item" > <a href="#ressar"> {refound} </a> </li>
+                    <li className="navbar__item"><a href="#credit">{credit}</a></li>
+                    <li className="navbar__item"><a href="#others">{others}</a></li>
+                    {/* <li className="navbar__item" ><a href="#about">{about}</a></li> */}
+                    <li className="navbar__item"><a href="#contacts">{contact}</a></li>
+                    <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li>
+                    <li className="navbar__item"><span><Link href="/en-US">EN</Link></span></li>
+                  </ul>
+                </div>
               </s.Nav>
             </Nav>
           </Collapse>
         </Navbar>
-      </s.Navbar>
-    </div>
+      </Container>
+    </s.Nav>
   )
 }
-
 export default Navba
