@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Footer = styled.footer`
     background: black;
-    height: 430px;
-    color: #8b4513;
-    
+    height: 400px;
+    color: white;
+    margin-top: 100px;
 
     @media (min-width: 600px){
     display: flex;
