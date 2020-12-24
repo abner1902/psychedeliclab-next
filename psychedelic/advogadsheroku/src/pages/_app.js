@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import '../style.css'
 
 const MyApp = ({ Component, pageProps }) => ( 
     <div>
