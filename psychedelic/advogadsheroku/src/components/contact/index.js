@@ -1,68 +1,27 @@
 import React from 'react'
 import * as s from './style'
-import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap'
+import Link from 'next/link'
 
-const Lawyers = (props) => (
-  <s.Lawyers>
-    <div className="contact">
+const Contact = () => {
+  return (
+    <s.Contact>
       <div className="container">
-        <h1 className="contact__title">
-          Contato
-        </h1>
+        <div className="blockblack">
+          <div id="contact" className="spacer">
+            <div className="contactform center">
+              <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da psycodelia</h3>
+              <div className="row">
+                <div className=" col-md-12 col-sm-6 col-sm-offset-3 ">
+                  <img src="darkpsy.jpeg" className="img-responsive"/>
+                  <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <Container>
-        <Form>
-          <Row form>
-            <Col md={6}>
-              <FormGroup>
-                <Label for="exampleEmail">Email</Label>
-                <Input type="email" name="email" id="exampleEmail" placeholder="Insira seu e-mail" />
-              </FormGroup>
-            </Col>
-            <Col md={6}>
-              <FormGroup>
-                <Label for="examplePassword">Telefone</Label>
-                <Input type="password" name="password" id="examplePassword" placeholder="Insira seu número" />
-              </FormGroup>
-            </Col>
-          </Row>
-          <FormGroup>
-            <Label for="exampleAddress">assunto</Label>
-            <Input type="text" name="address" id="exampleAddress" placeholder=""/>
-          </FormGroup>
-          <FormGroup>
-            <Label for="exampleAddress2">Address 2</Label>
-            <Input type="text" name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor"/>
-          </FormGroup>
-          <Row form>
-            <Col md={6}>
-              <FormGroup>
-                <Label for="exampleCity">Nome</Label>
-                <Input type="text" name="city" id="exampleCity"/>
-              </FormGroup>
-            </Col>
-            <Col md={4}>
-              <FormGroup>
-                <Label for="exampleState">Sobrenome</Label>
-                <Input type="text" name="state" id="exampleState"/>
-              </FormGroup>
-            </Col>
-            <Col md={2}>
-              {/* <FormGroup>
-                <Label for="exampleZip">Zip</Label>
-                <Input type="text" name="zip" id="exampleZip"/>
-              </FormGroup> */}
-            </Col>
-          </Row>
-          {/* <FormGroup check>
-            <Input type="checkbox" name="check" id="exampleCheck"/>
-            <Label for="exampleCheck" check>Check me out</Label>
-          </FormGroup> */}
-          <Button>Enviar</Button>
-        </Form>
-      </Container>
-    </div>
-  </s.Lawyers>
-)
+    </s.Contact>
+  )
+}
 
-export default Lawyers
+export default Contact

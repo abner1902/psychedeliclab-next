@@ -1,21 +1,34 @@
 import styled from 'styled-components'
 
-export const Lawyers = styled.div`
-    background-color: #8b4513;
-    border: solid;
-    height: 727px;
-    .container {
-    border: solid;
-    border-color: black;
-    border-radius: 12px;
-    opacity: 0.8;
+export const Contact = styled.div`
+    a{
+        color: white;
     }
-    .contact{
-    margin-top: 100px;
-   
-    }.contact__title{
-    text-align: center;
-    color: black;  
-     
+    h3{
+        text-align: center;
+        color: white;
     }
+    .img-responsive{
+        height: auto;
+        max-width: 100%;
+        margin-top: 80px;
+        display: block;
+    } .blockblack {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+    }.bgcolor {
+    background-color: black;
+    border-radius: 12px; 
+    margin: 25px 76px;
+    padding: 15px 41px;
+    display: block;
+    color: white;
+    @media(min-width: 800px){
+        margin: 65px 409px;
+        padding: 20px 77px;
+    }
+
+}
+
 `

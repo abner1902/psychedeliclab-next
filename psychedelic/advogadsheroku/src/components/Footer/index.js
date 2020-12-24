@@ -8,8 +8,11 @@ const Footer = () => (
       <div className="footer">
         <ul className="footer__list">
           <li classNam="footer__strong">Institucional</li>
-          <li>Perguntas frequentes</li>
-          <li>Fale conosco</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Notícias</li>
+          <li>Cursos</li>
+          <li>Seja Vip</li>
         </ul>
       </div>
       <div className="follow">
