@@ -1,7 +1,24 @@
 import styled from 'styled-components'
 
 export const Blog = styled.div`
+    a{
+        color: white;
+    }
+    li{
 
+        list-style-type: none;    }
+    .img-responsive{
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    div{
+        color: white;
+    }
+    h3{
+        color: white;
+        margin-bottom: 70px;
+    }
     .blockblack {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;

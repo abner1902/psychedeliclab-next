@@ -5,11 +5,11 @@ import Link from 'next/link'
 const Contact = () => {
   return (
     <s.Contact>
-      <div className="container">
+      <div  id="course"className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
-              <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da psycodelia</h3>
+              <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da psicodelia</h3>
               <div className="row">
                 <div className=" col-md-12 col-sm-6 col-sm-offset-3 ">
                   <img src="darkpsy.jpeg" className="img-responsive"/>

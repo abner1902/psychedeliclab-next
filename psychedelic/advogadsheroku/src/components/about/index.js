@@ -4,7 +4,7 @@ import * as s from './style.js'
 const About = () => {
   return (
     <s.About>
-      <div className="container overlay">
+      <div id="about" className="container overlay">
         <div id="home" class="homeinfo">
           <div className="row">
             <div className="col-sm-6 col-xs-12">
