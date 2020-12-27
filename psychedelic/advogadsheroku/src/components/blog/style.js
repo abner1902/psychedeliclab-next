@@ -5,13 +5,21 @@ export const Blog = styled.div`
         color: white;
     }
     li{
-
-        list-style-type: none;    }
+    list-style-type: none;    }
     .img-responsive{
         display: block;
         height: auto;
         max-width: 100%;
-    }
+    }.img-responsive-1{
+        display: block;
+        height: auto;
+        max-width: 100%;
+        @media(min-width: 600px){
+            width: 221px!important;
+
+        }
+    }    
+        
     div{
         color: white;
     }
@@ -118,8 +126,6 @@ button.close {
     margin-bottom: 10px;
     display: block;
 }
-
-
 
  
 `

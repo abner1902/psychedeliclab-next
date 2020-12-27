@@ -83,7 +83,7 @@ const Blog = () => {
                   </div>
                   </li>
                   <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
-                    className="col-xs-12 col-sm-3 col-lg-4"><img src="acoustics.png" className="img-responsive"
+                    className="col-xs-12 col-sm-3 col-lg-4"><img src="acoustics.png" className="img-responsive-1"
                       alt="music theme" /></a>
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
                   <h5><a href="https://web.facebook.com/Meleacoustics" data-toggle="modal" data-target="#blogdetail">Notícias Darkpsy</a></h5>
