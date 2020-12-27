@@ -2,18 +2,20 @@ import React from 'react'
 import * as s from './style'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import InstagramIcon from '@material-ui/icons/Instagram'
+import Link from 'next/link'
+
 const Footer = () => (
   <div>
     <s.Footer>
       <div className="footer">
         <ul className="footer__list">
-          <li classNam="footer__strong">Institucional</li>
-          <li>Home</li>
-          <li>About</li>
-          <li>Notícias</li>
-          <li>Cursos</li>
-          <li>Seja Vip</li>
-          <lli>Links & Noicias</lli>
+          <li classNam="footer__strong"><strong>Institucional</strong></li>
+          <li><Link href="/">Home</Link></li>
+          <li><a href="#about">About</a></li>
+          {/* <li><a href="#news">Notícias</a></li> */}
+          <li><a href="course">Cursos</a></li>
+          {/* <li><a>Seja Vip</a></li> */}
+          <lli><a href="news">Links & Noicias</a></lli>
         </ul>
       </div>
       <div className="follow">
