@@ -13,6 +13,7 @@ const Footer = () => (
           <li>Notícias</li>
           <li>Cursos</li>
           <li>Seja Vip</li>
+          <lli>Links & Noicias</lli>
         </ul>
       </div>
       <div className="follow">

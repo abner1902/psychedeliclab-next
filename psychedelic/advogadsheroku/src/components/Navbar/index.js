@@ -71,7 +71,7 @@ const Navba = () => {
                 <div className="navbar">
                   <ul className="navbar__unordered">
                     <li className="navbar__item"> <Link href="/"> Home </Link></li>
-                    <li className="navbar__item" > <a href="#public">{publics}</a></li>
+                    <li className="navbar__item" > <a href="about">{publics}</a></li>
                     {/* <li className="navbar__item"><a href="#">Blog</a></li> */}
                     <li className="navbar__item" > <a href="#ressar"> {refound} </a> </li>
                     <li className="navbar__item"><a href="#credit">{credit}</a></li>
