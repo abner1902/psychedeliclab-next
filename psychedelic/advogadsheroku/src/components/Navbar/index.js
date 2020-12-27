@@ -71,11 +71,11 @@ const Navba = () => {
                 <div className="navbar">
                   <ul className="navbar__unordered">
                     <li className="navbar__item"> <Link href="/"> Home </Link></li>
-                    <li className="navbar__item" > <a href="about">{publics}</a></li>
+                    <li className="navbar__item" > <a href="#about">{publics}</a></li>
                     {/* <li className="navbar__item"><a href="#">Blog</a></li> */}
-                    <li className="navbar__item" > <a href="#ressar"> {refound} </a> </li>
-                    <li className="navbar__item"><a href="#credit">{credit}</a></li>
-                    <li className="navbar__item"><a href="#others">{others}</a></li>
+                    <li className="navbar__item" > <a href="#news"> {refound} </a> </li>
+                    <li className="navbar__item"><a href="#course">{credit}</a></li>
+                    {/* <li className="navbar__item"><a href="#others">{others}</a></li> */}
                     {/* <li className="navbar__item" ><a href="#about">{about}</a></li> */}
                     {/* <li className="navbar__item"><a href="#contacts">{contact}</a></li> */}
                     <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li>
