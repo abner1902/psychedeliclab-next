@@ -6,7 +6,7 @@
     "node": "12.18.0"
   },
   "scripts": {
-    "dev": "node server.js",
+    "start": "yarn install && next build && next start",
     "build": "next build",
     "start": "NODE_ENV=production node server.js -p $PORT"
   },
