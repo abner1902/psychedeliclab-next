@@ -16,7 +16,6 @@ const Home = () => (
     {/* <Sliders /> */}
     <About />
     <Psy />
-    
     <Contact />
     <Tuto />
     <Playlist />
