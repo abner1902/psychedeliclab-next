@@ -41,8 +41,8 @@ const Blog = () => {
                   <li>
                     <div className="row">
                       <div className="col-xs-12 col-sm-3 col-lg-4"><a href="#" data-toggle="modal"
-                        data-target="#blogdetail"><img src="Darkpsypreset.jpeg" className="img-responsive"
-                          alt="music theme" /></a></div>
+                        data-target="#blogdetail"><img src="Darkpsypreset.jpeg"  className="img-responsive"
+                          alt="music" /></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
                         <h5><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" data-toggle="modal" data-target="#blogdetail">Darkpsy Preset</a></h5>
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.

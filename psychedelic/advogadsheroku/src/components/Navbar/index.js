@@ -63,7 +63,7 @@ const Navba = () => {
     <s.Nav>
       <Container >
         <Navbar light expand="md" sticky="top">
-          <h5 className="logomob"><img src="logo.jpg"/></h5>
+          <h5 className="logomob"><img src="logo.jpg" alt="logo"/></h5>
           <s.NavbarTogglers onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto">

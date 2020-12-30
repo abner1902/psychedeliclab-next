@@ -13,16 +13,16 @@ const Footer = () => (
           <li><Link href="/">Home</Link></li>
           <li><a href="#about">About</a></li>
           {/* <li><a href="#news">Notícias</a></li> */}
-          <li><a href="course">Cursos</a></li>
+          <li><a href="#course">Cursos</a></li>
           {/* <li><a>Seja Vip</a></li> */}
-          <lli><a href="news">Links & Noicias</a></lli>
+          <lli><a href="#news">Links & Noicias</a></lli>
         </ul>
       </div>
       <div className="follow">
         <ul className="follow__list">
           <li className="follow__strong">Siga-nos</li>
-          <li><FacebookIcon/></li>
-          <li className="follow__spacing"><InstagramIcon/></li>
+          <li><a href="https://www.facebook.com/Labpsychedelic"><FacebookIcon/></a></li>
+          <li className="follow__spacing"><a href="#"><InstagramIcon/></a></li>
         </ul>
       </div>
       {/* <div className="follow__inline">
