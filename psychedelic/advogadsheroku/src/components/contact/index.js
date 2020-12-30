@@ -12,7 +12,7 @@ const Contact = () => {
               <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da psicodelia</h3>
               <div className="row">
                 <div className=" col-md-12 col-sm-6 col-sm-offset-3 ">
-                  <img src="darkpsy.jpeg" className="img-responsive"/>
+                  <img src="darkpsy.jpeg" className="img-responsive" alt="darkpsy"/>
                   <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
                 </div>
               </div>
