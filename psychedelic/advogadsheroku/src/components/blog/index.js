@@ -93,7 +93,7 @@ const Blog = () => {
                   </div>
                   </li>
                   <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
-                    className="col-xs-12 col-sm-3 col-lg-4"><img src="saturn-2-feature-2.jpg" className="img-responsive"
+                    className="col-xs-12 col-sm-3 col-lg-4"><img src="saturn-2-feature-2 .jpg" className="img-responsive"
                       alt="music theme" /></a>
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
                     <h5><a href="https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in" data-toggle="modal" data-target="#blogdetail">Notícias Darkpsy</a></h5>
