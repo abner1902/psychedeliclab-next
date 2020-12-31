@@ -33,7 +33,7 @@ class MyDocument extends Document {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-                      
+
               gtag('config', 'UA-186277147-1');
             </script>
               `,
@@ -44,6 +44,7 @@ class MyDocument extends Document {
             <meta name="language" content="pt-br, en"/>
             <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico"/>
         </Head>
+            <meta property="og:url" content="https://psychedeliclab.com.br"/>
             <meta name="og:title" content="Curso Darkpsy Psychedliclab" />
             <meta name="og:image" content="https://psychedeliclab.com.br/darkpsy.jpeg" />
             <meta name="og:site_name" content="Psychedelic labb"/>
@@ -51,6 +52,8 @@ class MyDocument extends Document {
             <meta property="og:type" content="website"/>
             <meta name="og:description" content="Darkpsy"/>
             <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileiras focada na vertente"/>
+            <meta property="og:title" content="Curso Produção Darkpsy"/>
+            <meta property="og:description" content="O tutorial para compartilhar o conteúdo do seu site de forma eficaz." />
         <body>
           <Main />
           <NextScript/>
