@@ -50,6 +50,7 @@ class MyDocument extends Document {
             <meta name="fb:page_id" content="Psychedelic lab"/>
             <meta property="og:type" content="website"/>
             <meta name="og:description" content="Darkpsy"/>
+            <meta name="twitter:card" content="summary" />
             <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileiras focada na vertente"/>
         <body>
           <Main />
