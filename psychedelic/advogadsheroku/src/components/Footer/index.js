@@ -15,7 +15,7 @@ const Footer = () => (
           {/* <li><a href="#news">Notícias</a></li> */}
           <li><a href="#course">Cursos</a></li>
           {/* <li><a>Seja Vip</a></li> */}
-          <lli><a href="#news">Links & Noicias</a></lli>
+          <lli><a href="#news">Links & Notícias</a></lli>
         </ul>
       </div>
       <div className="follow">

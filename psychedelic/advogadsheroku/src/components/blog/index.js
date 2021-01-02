@@ -9,7 +9,7 @@ const Blog = () => {
           <div className="row">
             <div className="col-md-6 col-xs-12">
               <div className="events">
-                <h3><span className="glyphicon glyphicon-calendar"></span> Links </h3>
+                <h3><span className="glyphicon glyphicon-calendar"></span>Free Download</h3>
                 <ul>
                   <li>
                     <div className="row">
@@ -22,7 +22,7 @@ const Blog = () => {
                           {/* <a href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB">Pack drums</a> */}
                         </p>
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b>2021</b><span></span></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b></b><span></span></div>
                     </div>
                   </li>
                   <li>
@@ -35,7 +35,7 @@ const Blog = () => {
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b>2021</b><span></span></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b></b><span></span></div>
                     </div>
                   </li>
                   <li>
@@ -44,11 +44,11 @@ const Blog = () => {
                         data-target="#blogdetail"><img src="Darkpsypreset.jpeg"  className="img-responsive"
                           alt="music" /></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
-                        <h5><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" data-toggle="modal" data-target="#blogdetail">Darkpsy Preset</a></h5>
+                        <h5><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" data-toggle="modal" data-target="#blogdetail">Darkpsy Presset</a></h5>
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b>2021</b></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b></b></div>
                     </div>
                   </li>
                   <li>
@@ -61,7 +61,7 @@ const Blog = () => {
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b>2021</b><span></span></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><b></b><span></span></div>
                     </div>
                   </li>
                 </ul>
@@ -70,7 +70,7 @@ const Blog = () => {
 
             <div className="col-md-5 col-md-offset-1 col-xs-12">
               <div className="ourblog">
-                <h3><span className="glyphicon glyphicon-book"></span>Notícias</h3>
+                <h3><span className="glyphicon glyphicon-book"></span>Se liga ai !</h3>
                 <ul className="row">
                   <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
                     className="col-xs-12 col-sm-3 col-lg-4"><img src="download.jpeg" className="img-responsive"
@@ -98,7 +98,8 @@ const Blog = () => {
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
                     <h5><a href="https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in" data-toggle="modal" data-target="#blogdetail">Notícias Darkpsy</a></h5>
                     <small></small>
-                    <p>Plugin Fabfilter
+                    <p>
+                      Plugin Fabfilter
                     </p>
                   </div>
                   </li>
