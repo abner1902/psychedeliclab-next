@@ -16,6 +16,13 @@ export const Psy = styled.div`
     padding: 5px 10px;
     color: #666666;
 }
+p{
+
+    margin-top: 49px;
+    @media(min-width: 600px){
+    margin-top: 0px;
+    }
+}
 
 .fronttext p {
     margin: 0;
@@ -24,6 +31,7 @@ export const Psy = styled.div`
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
+   
 }
 
 .overlay {
