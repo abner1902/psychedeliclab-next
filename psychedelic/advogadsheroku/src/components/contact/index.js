@@ -19,7 +19,7 @@ function SamplePrevArrow (props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'flex'}}
+      style={{ ...style, display: 'flex' }}
       onClick={onClick}
     />
   )
@@ -28,7 +28,8 @@ function SamplePrevArrow (props) {
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  autoplay: true,
+  speed: 2500,
   slidesToShow: 1,
   slidesToScroll: 1,
   nextArrow: <SampleNextArrow />,
@@ -38,30 +39,27 @@ const settings = {
 const Contact = () => {
   return (
     <s.Contact>
-      <div  id="course"className="container">
+      <div id="course"className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
               <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da Psicodelia!</h3>
               <div className="row">
                 <div className=" col-md-12 col-sm-6 col-sm-offset-3 ">
-                <Slider {...settings}>
-                  <div className="first-slider">
-                  <img src="darkpsy.jpeg" className="img-responsive" alt="darkpsy"/>
-                  </div>
-                  <div className="slider-second">
-                    <div className="slider__texts">
-                    </div >
-                  </div>
-                  <div className="slider-third">
-                    <div className="slider__texts">
-
+                  <Slider {...settings}>
+                    <div className="first-slider">
+                      <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"> <img src="darkpsy.jpeg" className="img-responsive" alt="darkpsy"/></a>
                     </div>
-                  </div>
-                  <div className="slider-fourth">
-                    <div className="slider__texts">
+                    <div className="slider-second">
+                      <div className="slider__texts">
+                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module.jpeg" className="img-responsive" alt="darkpsy1"/></a>
+                      </div>
                     </div>
-                  </div>
+                    <div className="slider-third">
+                      <div className="slider__texts">
+                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module2.jpeg" className="img-responsive" alt="darkpsy2"/></a>
+                      </div>
+                    </div>
                   </Slider>
                   <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
                 </div>
@@ -75,4 +73,3 @@ const Contact = () => {
 }
 
 export default Contact
-
