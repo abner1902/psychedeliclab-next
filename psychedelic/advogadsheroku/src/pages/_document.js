@@ -85,6 +85,7 @@ class MyDocument extends Document {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Darkpsy course" />
         <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
+        <meta name="twitter:site" content="@asd" />
 
         <body>
           <Main />
