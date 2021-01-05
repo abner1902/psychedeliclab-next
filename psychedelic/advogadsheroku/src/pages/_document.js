@@ -1,12 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps (ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
 
-  render() {
+  render () {
     return (
       <Html>
         <Head>
@@ -47,22 +47,45 @@ class MyDocument extends Document {
             }}
           />
 
+           {/* <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+                "@context": "https://schema.org/",
+              "@type": "Recipe",
+              "name": "Party Coffee Cake",
+              "author": {
+                "@type": "Person",
+                "name": "Mary Stone"
+              },
+              "datePublished": "2018-03-10",
+              "description": "This coffee cake is awesome and perfect for parties.",
+              "prepTime": "PT20M"
+              }
+                  `
+            }}
+          /> */}
           <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="language" content="pt-br, en" />
           <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
         </Head>
-        <meta property="og:url" content="https://psychedeliclab.com.br" />
+        <meta property="og:url" content="https://www.psychedeliclab.com.br" />
         <meta name="og:title" content="Curso Darkpsy Psychedliclab" />
-        <meta name="og:image" content="https://psychedeliclab.com.br/darkpsy.jpeg" />
+        {/* <meta name="og:image" content="" /> */}
+        <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
         <meta name="og:site_name" content="Psychedelic labb" />
         <meta name="fb:page_id" content="Psychedelic lab" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="Course" />
         <meta name="og:description" content="Darkpsy" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileiras focada na vertente" />
+        <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileira focada na vertente." />
         <meta property="og:title" content="Curso Produção Darkpsy" />
-        <meta property="og:description" content="O tutorial para compartilhar o conteúdo do seu site de forma eficaz." />
+        <meta property="og:description" 
+              content="Do zero ao profissional" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Darkpsy course" />
+        <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
+
         <body>
           <Main />
           <NextScript />
