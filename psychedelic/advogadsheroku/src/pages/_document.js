@@ -81,7 +81,6 @@ class MyDocument extends Document {
         <meta name="twitter:card" content="summary" />
         <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileira focada na vertente." />
         <meta property="og:title" content="Curso Produção Darkpsy" />
-        <meta property="og:description" content="O tutorial para compartilhar o conteúdo do seu site de forma eficaz." />
         <meta property="og:description" 
               content="Do zero ao profissional" />
         <body>
