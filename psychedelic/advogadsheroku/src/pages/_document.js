@@ -42,8 +42,7 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              <script data-ad-client="ca-pub-7405864963958025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-              `
+              <script type="text/javascript"> var infolinks_pid = 3305124; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>              `
             }}
           />
 
