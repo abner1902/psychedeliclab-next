@@ -10,7 +10,24 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Psychedeliclab</title>
+        <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              <script async src="https://cse.google.com/cse.js?cx=bef7f3688afbf63fd"></script>
+              <div class="gcse-search"></div>
+              `
+            }}
+          />
+
+           <script
+            dangerouslySetInnerHTML={{
+              __html: `
+             <script async src="https://cse.google.com/cse.js?cx=4c3498e3a446c039f"></script>
+             <div class="gcse-search"></div>
+              `
+            }}
+          />
+          
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -64,6 +81,7 @@ class MyDocument extends Document {
                   `
             }}
           /> */}
+          <title>Psychedeliclab</title>
           <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="language" content="pt-br, en" />
