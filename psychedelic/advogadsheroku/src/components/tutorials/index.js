@@ -63,7 +63,7 @@ const Tuto = () => {
             </div>
 
             <div className="col-sm-3 col-xs-12">
-              <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/8yHomorjkjw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/8n7lgQD2koo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                   {/* <h5>Crazy Freso</h5><a href="#" className="listen" data-toggle="modal" data-target="#albumdetail"><span
                     className="glyphicon glyphicon-headphones"></span> Listen Song</a> */}
@@ -72,7 +72,7 @@ const Tuto = () => {
             </div>
 
             <div className="col-sm-3 col-xs-12">
-              <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/l6Vs_-JMu0U" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/uis99Zz-5DU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                   {/* <h5>Crazy Freso</h5><a href="#" className="listen" data-toggle="modal" data-target="#albumdetail"><span
                     className="glyphicon glyphicon-headphones"></span> Listen Song</a> */}
