@@ -34,12 +34,13 @@ export const Contact = styled.div`
     }.bgcolor {
     background-color: black;
     border-radius: 12px; 
-    margin: 25px 76px;
-    padding: 15px 41px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 39px;
     display: block;
     color: white;
     @media(min-width: 800px){
-        margin: 65px 409px;
+        
         padding: 20px 77px;
     }
 
