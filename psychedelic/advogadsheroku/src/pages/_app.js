@@ -4,9 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import '../style.css'
+import Head from 'next/head'
 
 const MyApp = ({ Component, pageProps }) => ( 
     <div>
+         <Head>
+            <title>Psychedelic Lab</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          </Head>
         <Component {...pageProps} />
         <Footer/>
     </div>  

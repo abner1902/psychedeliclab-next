@@ -3,10 +3,16 @@ import styled from 'styled-components'
 export const Contact = styled.div`
     a{
         color: white;
+        @media (min-width: 600px) {
+        
+    }
     }
     h3{
         text-align: center;
         color: white;
+        @media (min-width: 600px) {
+        
+    }
     }
     .img-responsive{
         height: auto;
@@ -15,10 +21,16 @@ export const Contact = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
+        @media (min-width: 600px) {
+        
+    }
     } .blockblack {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     padding: 25px;
+    @media (min-width: 600px) {
+        
+    }
     }.bgcolor {
     background-color: black;
     border-radius: 12px; 
