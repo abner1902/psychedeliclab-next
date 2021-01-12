@@ -35,7 +35,7 @@ const Blog = () => {
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><GetAppIcon/></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><a href="https://mega.nz/file/Lds3jLKK#_T8c7bhgplGB3rHVM6SzD-D5-_aiGboftHikwd3fkKg"><GetAppIcon/></a></div>
                     </div>
                   </li>
                   <li>
@@ -48,7 +48,7 @@ const Blog = () => {
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><GetAppIcon/></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc"><GetAppIcon/></a></div>
                     </div>
                   </li>
                   <li>
@@ -61,7 +61,7 @@ const Blog = () => {
                         {/* <p>Typewriter photo booth vinyl post-ironic, literally keffiyeh locavore tofu lomo pug Odd Future.
                         </p> */}
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><GetAppIcon/></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><a href="https://mega.nz/file/PRtxCQgI#GMRqARaT7CY24dbyEhbto_Rn_fmuhutOK9mAiAdNjvc"><GetAppIcon/></a></div>
                     </div>
                   </li>
                 </ul>
