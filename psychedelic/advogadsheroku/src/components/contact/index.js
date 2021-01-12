@@ -45,19 +45,19 @@ const Contact = () => {
             <div className="contactform center">
               <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da Psicodelia!</h3>
               <div className="row">
-                <div className=" col-md-12 col-sm-6 col-sm-offset-3 ">
+                <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
                     <div className="first-slider">
-                      <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"> <img src="darkpsy.jpeg" className="img-responsive" alt="darkpsy"/></a>
+                      <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"> <img src="darkpsy.jpg" className="img-responsive" alt="darkpsy"/></a>
                     </div>
                     <div className="slider-second">
                       <div className="slider__texts">
-                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module.jpeg" className="img-responsive" alt="darkpsy1"/></a>
+                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module.jpg" className="img-responsive" alt="darkpsy1"/></a>
                       </div>
                     </div>
                     <div className="slider-third">
                       <div className="slider__texts">
-                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module2.jpeg" className="img-responsive" alt="darkpsy2"/></a>
+                        <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B"><img src="module2.jpg" className="img-responsive" alt="darkpsy2"/></a>
                       </div>
                     </div>
                   </Slider>

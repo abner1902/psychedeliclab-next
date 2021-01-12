@@ -13,6 +13,8 @@ export const Contact = styled.div`
         max-width: 100%;
         margin-top: 80px;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     } .blockblack {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
