@@ -82,7 +82,7 @@ class MyDocument extends Document {
           <title>Psychedeliclab</title>
           <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="language" content="pt-br, en" />
+          <meta name="language" content="pt-br" />
           <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
         </Head>
         <meta property="og:url" content="https://www.psychedeliclab.com.br" />
@@ -102,8 +102,16 @@ class MyDocument extends Document {
         <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
 
         <body>
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ8XGSQ"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script
+            dangerouslySetInnerHTML={{
+              __html: 
+              `
+              <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ8XGSQ"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+              `
+            }}
+          />
+        
           <Main />
           <NextScript />
         </body>
