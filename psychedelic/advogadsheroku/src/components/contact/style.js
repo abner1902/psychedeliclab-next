@@ -43,5 +43,43 @@ export const Contact = styled.div`
         
         padding: 20px 77px;
     }
+
+    }.slick-next:before {
+    content: '→';
+    display: none;
+    @media(min-width: 600px){
+        display: block
+    }
+    }.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+    @media(min-width: 600px){
+        display: block
+    }
+    }.slick-prev:before {
+    content: '←';
+    display: none;
+    @media(min-width: 600px){
+        display: block
+    }
+    }.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+    @media(min-width: 600px){
+        display: block
+    }
+
 }
 `
