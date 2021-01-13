@@ -43,7 +43,5 @@ export const Contact = styled.div`
         
         padding: 20px 77px;
     }
-
 }
-
 `
