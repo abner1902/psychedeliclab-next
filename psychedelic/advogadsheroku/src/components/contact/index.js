@@ -61,11 +61,12 @@ const Contact = () => {
                       </div>
                     </div>
                   </Slider>
-                  <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
                 </div>
               </div>
             </div>
           </div>
+          <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
+
         </div>
       </div>
     </s.Contact>
