@@ -10,6 +10,7 @@ export const Contact = styled.div`
     h3{
         text-align: center;
         color: white;
+        margin-top: 100px;
         @media (min-width: 600px) {
         
     }
@@ -26,8 +27,8 @@ export const Contact = styled.div`
     }
     } .blockblack {
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
     padding: 25px;
+    border-color: none;
     @media (min-width: 600px) {
         
     }
@@ -39,10 +40,7 @@ export const Contact = styled.div`
     padding: 7px 39px;
     display: block;
     color: white;
-    @media(min-width: 800px){
-        
-        padding: 20px 77px;
-    }
+    padding: 20px 77px;
 
     }.slick-next:before {
     content: '→';
