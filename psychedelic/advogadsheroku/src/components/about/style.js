@@ -39,8 +39,10 @@ export const About = styled.section`
     font-size: 60px;
     line-height: 60px;
     display: inline-block;
-    padding: 5px 10px;  
+    padding: 5px 10px;
+    font-size: 46px;
     @media (min-width: 600px) {
+        font-size: 69px;
         
     }
 }

@@ -10,9 +10,9 @@ const About = () => {
             <div className="col-sm-6 col-xs-12">
               <div className="fronttext">
                 <h1 className="bgcolor">
-                  Psychedelic lab
+                  Darkpsy Portal
                 </h1><br />
-                <p className=" animated fadeInUp"> Somos a escola online, voltada para o ensino das vertentes do
+                <p className=" animated fadeInUp">Psychedelic lab  é a escola online, voltada para o ensino das vertentes do
                 DarkPsy, como Psycore, Forest, Hi-Tech, Suomi, Prog Dark, conceitos focados para esse gênero são
               discutidos e compartilhados, em vídeos tutoriais, E-books e muito mais !</p>
               </div>
