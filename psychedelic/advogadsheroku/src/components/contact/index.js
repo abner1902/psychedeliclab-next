@@ -26,7 +26,7 @@ function SamplePrevArrow (props) {
 }
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   autoplay: true,
   speed: 2500,
@@ -39,7 +39,7 @@ const settings = {
 const Contact = () => {
   return (
     <s.Contact>
-      <div id="course"className="container">
+      <div id="course" className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
@@ -65,10 +65,14 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <button className="btn btn-warning bgcolor" align="center"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
 
         </div>
       </div>
+      <div className="container">
+      <div className="blockblack">
+      <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor">Adquirir!</button></a>
+        </div>
+        </div>
     </s.Contact>
   )
 }
