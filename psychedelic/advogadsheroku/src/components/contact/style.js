@@ -80,6 +80,6 @@ export const Contact = styled.div`
     @media(min-width: 600px){
         display: block
     }
-
 }
+
 `
