@@ -6,6 +6,7 @@ import Tuto from '../components/tutorials/index'
 import Playlist from '../components/playlist/index'
 import Blog from '../components/blog/index'
 import Contact from '../components/contact/index'
+import Faq from '../components/faq/index'
 
 const Home = () => (
   <div>
@@ -17,7 +18,7 @@ const Home = () => (
     <Tuto />
     <Playlist />
     <Blog />
-
+    <Faq />
   </div>
 )
 

@@ -33,10 +33,10 @@ const Navba = () => {
 
       const credit =
   router.locale === 'en-US'
-    ? 'Cursos'
+    ? 'Curso'
     : router.locale === 'pt'
-      ? 'Courses'
-      : 'Cursos'
+      ? 'Curso'
+      : 'Curso'
 
       const others =
       router.locale === 'en-US'
@@ -47,10 +47,10 @@ const Navba = () => {
 
       const about =
   router.locale === 'en-US'
-    ? 'About'
+    ? 'Sobre'
     : router.locale === 'pt'
       ? 'Sobre'
-      : 'About'
+      : 'Sobre'
 
       const  contact =
       router.locale === 'en-US'

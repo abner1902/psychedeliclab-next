@@ -11,11 +11,11 @@ const Footer = () => (
         <ul className="footer__list">
           <li classNam="footer__strong"><strong>Institucional</strong></li>
           <li><Link href="/">Home</Link></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#about">Sobre</a></li>
           {/* <li><a href="#news">Notícias</a></li> */}
-          <li><a href="#course">Cursos</a></li>
+          <li><a href="#course">Curso</a></li>
           {/* <li><a>Seja Vip</a></li> */}
-          <lli><a href="#news">Links & Notícias</a></lli>
+          <lli><a href="#news">Notícias DarkPsy</a></lli>
         </ul>
       </div>
       <div className="follow">
