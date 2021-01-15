@@ -126,7 +126,7 @@ export const Blog = styled.div`
 
 .ourblog ul li img {
     float: left;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     @media (min-width: 600px) {
         
     }

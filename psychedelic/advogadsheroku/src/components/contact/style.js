@@ -7,7 +7,7 @@ export const Contact = styled.div`
         
     }
     }
-    h3{
+    h2{
         text-align: center;
         color: white;
         margin-top: 100px;

@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
-              <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da Psicodelia!</h3>
+              <h2><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo do Darkpsy</h2>
               <div className="row">
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
