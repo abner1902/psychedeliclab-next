@@ -8,8 +8,9 @@ export const Tuto = styled.div`
         max-width: 100%;
 }.blockblack {
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
     padding: 25px;
+    border-color: none;
+
 }
 h3{
     color: white;
