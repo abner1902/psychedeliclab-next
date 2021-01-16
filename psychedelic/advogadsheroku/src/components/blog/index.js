@@ -15,7 +15,7 @@ const Blog = () => {
                   <li>
                     <div className="row">
                       <div className="col-xs-12 col-sm-12 col-lg-4"><a href="#" data-toggle="modal"
-                        data-target="#blogdetail"><img src="packdrums.jpeg" className="img-responsive"
+                        data-target="#blogdetail"><img src="packdrums.jpg" className="img-responsive"
                           alt="music theme"  href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB"/></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
                         <h5><a href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB" data-toggle="modal" data-target="#blogdetail">Pack Drums</a></h5>
@@ -28,7 +28,7 @@ const Blog = () => {
                   <li>
                     <div className="row">
                       <div className="col-xs-12 col-sm-3 col-lg-4"><a href="#" data-toggle="modal"
-                        data-target="#blogdetail"><img src="kicka.jpeg" className="img-responsive"
+                        data-target="#blogdetail"><img src="kicka.jpg" className="img-responsive"
                           alt="music theme" /></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
                         <h5><a href="https://mega.nz/file/Lds3jLKK#_T8c7bhgplGB3rHVM6SzD-D5-_aiGboftHikwd3fkKg" data-toggle="modal" data-target="#blogdetail">Kick Samples</a></h5>
@@ -41,7 +41,7 @@ const Blog = () => {
                   <li>
                     <div className="row">
                       <div className="col-xs-12 col-sm-3 col-lg-4"><a href="#" data-toggle="modal"
-                        data-target="#blogdetail"><img src="Darkpsypreset.jpeg"  className="img-responsive"
+                        data-target="#blogdetail"><img src="Darkpsypreset.jpg"  className="img-responsive"
                           alt="music" /></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
                         <h5><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" data-toggle="modal" data-target="#blogdetail">Darkpsy Presset</a></h5>
@@ -54,7 +54,7 @@ const Blog = () => {
                   <li>
                     <div className="row">
                       <div className="col-xs-12 col-sm-3 col-lg-4"><a href="#" data-toggle="modal"
-                        data-target="#blogdetail"><img src="Wavetables.jpeg" className="img-responsive"
+                        data-target="#blogdetail"><img src="Wavetables.jpg" className="img-responsive"
                           alt="music theme" /></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
                         <h5><a href="https://mega.nz/file/PRtxCQgI#GMRqARaT7CY24dbyEhbto_Rn_fmuhutOK9mAiAdNjvc" data-toggle="modal" data-target="#blogdetail">Pack de Wavetables para o Serum</a></h5>
