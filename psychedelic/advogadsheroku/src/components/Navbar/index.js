@@ -18,10 +18,10 @@ const Navba = () => {
 
     const publics =
   router.locale === 'en-US'
-    ? 'About'
+    ? 'Sobre'
     : router.locale === 'pt'
       ? 'Sobre'
-      : 'About'
+      : 'Sobre'
 
       const refound =
   router.locale === 'en-US'
