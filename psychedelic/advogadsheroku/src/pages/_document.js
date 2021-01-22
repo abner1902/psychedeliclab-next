@@ -11,41 +11,6 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <title>Psychedeliclab</title>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-CTY634NDSF"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());        
-              gtag('config', 'G-CTY634NDSF');
-            </script>
-              `
-            }}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186277147-1">
-            </script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'UA-186277147-1');
-            </script>
-              `
-            }}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              <script data-ad-client="ca-pub-7405864963958025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-              `
-            }}
-          />
-
           <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="language" content="pt-br, en" />
