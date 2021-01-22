@@ -26,7 +26,7 @@ function SamplePrevArrow (props) {
 }
 
 const settings = {
-  dots: false,
+  dots: true,
   infinite: true,
   autoplay: true,
   speed: 2500,
@@ -39,11 +39,11 @@ const settings = {
 const Contact = () => {
   return (
     <s.Contact>
-      <div id="course" className="container">
+      <div id="course"className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
-              <h2><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo do Darkpsy</h2>
+              <h3><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo da Psicodelia!</h3>
               <div className="row">
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
@@ -67,12 +67,8 @@ const Contact = () => {
           </div>
 
         </div>
+          <button className="btn btn-warning bgcolor"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
       </div>
-      <div className="container">
-      <div className="blockblack">
-      <a href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor">Adquirir!</button></a>
-        </div>
-        </div>
     </s.Contact>
   )
 }
