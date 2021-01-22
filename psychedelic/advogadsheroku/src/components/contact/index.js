@@ -68,7 +68,7 @@ const Contact = () => {
 
         </div>
         <div className="blockblack">
-          <button className="btn btn-warning bgcolor"><Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" >Adquirir!</Link></button>
+        <Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor">Adquirir!</button></Link>
           </div>
       </div>
       
