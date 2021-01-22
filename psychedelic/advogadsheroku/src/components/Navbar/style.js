@@ -86,10 +86,7 @@ export const Nav = styled.nav`
     }
 `
 export const NavbarTogglers = styled(NavbarToggler)`
-    border-color: white;
     border-width: 3px;
     padding: 0px 3px;
-    color: white;
-    background-color: white;
-  
+    background-color: white!important;
 `
