@@ -35,12 +35,20 @@ class MyDocument extends Document {
           <NextScript>
           <script data-ad-client="ca-pub-7405864963958025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6FBN7CV25"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-Y6FBN7CV25');
-          </script>
+          
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y6FBN7CV25');
+            </script>
+              `
+            }}
+          />
+
           </NextScript>
         </body>
       </Html>
