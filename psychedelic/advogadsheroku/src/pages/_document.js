@@ -10,7 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Psychedeliclab</title>
           <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="language" content="pt-br, en" />
@@ -33,7 +32,16 @@ class MyDocument extends Document {
 
         <body>
           <Main />
-          <NextScript />
+          <NextScript>
+          <script data-ad-client="ca-pub-7405864963958025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6FBN7CV25"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Y6FBN7CV25');
+          </script>
+          </NextScript>
         </body>
       </Html>
     )
