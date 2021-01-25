@@ -7,9 +7,30 @@ class MyDocument extends Document {
   }
 
   render () {
+    const GA_MEASUREMENT_ID = 'G-CTY634NDSF'; // Paste your GTAG here
+
     return (
       <Html>
         <Head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        
+        <script
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `,
+            }}
+          />
+
           {/* <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" /> */}
