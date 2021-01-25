@@ -78,8 +78,8 @@ const Navba = () => {
                     {/* <li className="navbar__item"><a href="#others">{others}</a></li> */}
                     {/* <li className="navbar__item" ><a href="#about">{about}</a></li> */}
                     {/* <li className="navbar__item"><a href="#contacts">{contact}</a></li> */}
-                    <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li>
-                    <li className="navbar__item"><span><Link href="/en-US">EN</Link></span></li>
+                    {/* <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li> */}
+                    {/* <li className="navbar__item"><span><Link href="/en-US">EN</Link></span></li> */}
                   </ul>
                 </div>
               </s.Nav>

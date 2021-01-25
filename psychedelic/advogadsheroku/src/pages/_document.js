@@ -7,16 +7,35 @@ class MyDocument extends Document {
   }
 
   render () {
+    const GA_MEASUREMENT_ID = 'G-CTY634NDSF'; // Paste your GTAG here
+
     return (
       <Html>
         <Head>
-          <title>Psychedeliclab</title>
-          <meta charSet={'utf-8'} />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        
+        <script
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `,
+            }}
+          />
+
+          {/* <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="language" content="pt-br, en" />
-          <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
+          <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" /> */}
         </Head>
-        <meta property="og:url" content="https://www.psychedeliclab.com.br" />
+        {/* <meta property="og:url" content="https://www.psychedeliclab.com.br" />
         <meta name="og:title" content="Curso Darkpsy Psychedliclab" />
          <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
         <meta name="og:site_name" content="Psychedelic labb" />
@@ -29,11 +48,11 @@ class MyDocument extends Document {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Darkpsy course" />
         <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
-        <meta name="twitter:site" content="@asd" />
-
+        <meta name="twitter:site" content="@asd" /> */}
         <body>
           <Main />
           <NextScript />
+
         </body>
       </Html>
     )
