@@ -12,7 +12,6 @@ class MyDocument extends Document {
         <Head>
           {/* <meta charSet={'utf-8'} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="language" content="pt-br, en" />
           <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" /> */}
         </Head>
         {/* <meta property="og:url" content="https://www.psychedeliclab.com.br" />
@@ -29,7 +28,6 @@ class MyDocument extends Document {
         <meta name="twitter:title" content="Darkpsy course" />
         <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
         <meta name="twitter:site" content="@asd" /> */}
-
         <body>
           <Main />
           <NextScript />
