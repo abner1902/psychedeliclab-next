@@ -5,31 +5,20 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import '../style.css'
 import Head from 'next/head'
+import { DefaultSeo } from 'next-seo'
+import config from '../components/config/seo.json'
 
-const MyApp = ({ Component, pageProps }) => ( 
+const MyApp = ({ Component, pageProps,  }) => ( 
     <div>
-    
+        <DefaultSeo {...config} />
+
          <Head>
-            <title>Psychedelic Lab</title>
+
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
             <meta charSet={'utf-8'} />
-            <meta name="language" content="pt-br" />
-            <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
-            <meta property="og:url" content="https://www.psychedeliclab.com.br" />
-            <meta name="og:title" content="Curso Darkpsy Psychedliclab" />
-            {/* <meta name="og:image" content="" /> */}
             <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
-            <meta name="og:site_name" content="Psychedelic labb" />
-            <meta name="fb:page_id" content="Psychedelic lab" />
-            <meta property="og:type" content="Course" />
-            <meta name="og:description" content="Darkpsy" />
-            <meta name="description" content="Psychedelic lab, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileira focada na vertente. curso de Darkpsy, hitech, forest, prog dark" />
-            <meta property="og:title" content="curso de Produção Darkpsy" />
-            <meta property="og:description"
-              content="Do zero ao profissional" />
-            <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Darkpsy course" />
-            <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
+            <meta name="language" content="pt-br, en" />
+            <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
           </Head>
         <Component {...pageProps} />
         <Footer/>

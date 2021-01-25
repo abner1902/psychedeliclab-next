@@ -1,0 +1,20 @@
+{
+    "title": "Psychedelic Lab",
+    "titleTemplate": "Psychedelic lab Darkpsy portal ",
+    "description": "Psychedelic lab DarkPsy Portal, aprenda a produzir Darkpsy com a primeira plataforma de cursos brasileira focada na vertente Darkpsy, Psycore, Forest, Hi-Tech, Suomi, Prog Dark.",
+    "openGraph": {
+        "type": "website",
+        "locale": "pt-br",
+        "url": "https://www.psychedeliclab.com.br/",
+        "description": "Curso de darkpsy",
+        "title": "Curso de darkpsy psychedeliclab",
+        "image": "https://www.psychedeliclab.com.br/darkpsy.jpeg",
+        "site_name": "Psychedelic Lab"
+    },
+    "twitter": {
+      "handle": "@nextjs",
+      "site": "@nextjs",
+      "cardType": "summary_large_image",
+      "image": "https://www.psychedeliclab.com.br/darkpsy.jpeg"
+    }
+  }
