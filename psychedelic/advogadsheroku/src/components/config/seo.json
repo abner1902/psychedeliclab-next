@@ -1,0 +1,19 @@
+{
+    "title": "Psychedelic Lab",
+    "titleTemplate": "Psychedelic lab Darkpsy portal ",
+    "description": "Curso de Darkpsy psychedeliclab",
+    "openGraph": {
+        "type": "website",
+        "locale": "pt-br",
+        "url": "https://www.psychedeliclab.com.br/",
+        "description": "Curso de darkpsy",
+        "title": "Curso de darkpsy psychedeliclab",
+        "image": "https://www.psychedeliclab.com.br/darkpsy.jpeg",
+        "site_name": "Psychedelic Lab"
+    },
+    "twitter": {
+      "handle": "@nextjs",
+      "site": "@nextjs",
+      "cardType": "summary_large_image"
+    }
+  }
