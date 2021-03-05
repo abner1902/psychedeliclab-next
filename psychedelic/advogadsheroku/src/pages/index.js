@@ -7,11 +7,12 @@ import Playlist from '../components/playlist/index'
 import Blog from '../components/blog/index'
 import Contact from '../components/contact/index'
 import Faq from '../components/faq/index'
+import Feed from '../components/feed/index'
+import Samplepack from '../components/samplepack/index'
 
 const Home = () => (
   <div>
     <Navba />
-    {/* <Sliders /> */}
     <About />
     <Psy />
     <Contact />
@@ -19,6 +20,8 @@ const Home = () => (
     <Playlist />
     <Blog />
     <Faq />
+    <Feed />
+    <Samplepack />
   </div>
 )
 
