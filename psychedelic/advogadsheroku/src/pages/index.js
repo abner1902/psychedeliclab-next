@@ -19,9 +19,9 @@ const Home = () => (
     <Tuto />
     <Playlist />
     <Blog />
-    <Faq />
     <Feed />
     <Samplepack />
+    <Faq />
   </div>
 )
 

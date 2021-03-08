@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Contact = styled.div`
     a{
-        color: white;
-        @media (min-width: 600px) {
+    color: white;
+    @media (min-width: 600px) {
         
     }
     }
