@@ -16,12 +16,7 @@ const Navba = () => {
   const router = useRouter()
 
 
-    const publics =
-  router.locale === 'en-US'
-    ? 'Sobre'
-    : router.locale === 'pt'
-      ? 'Sobre'
-      : 'Sobre'
+ 
 
       const refound =
   router.locale === 'en-US'
@@ -38,27 +33,6 @@ const Navba = () => {
       ? 'Courses'
       : 'Cursos'
 
-      const others =
-      router.locale === 'en-US'
-        ? 'Seja Vip'
-        : router.locale === 'pt'
-          ?   'Vip '
-          : 'Seja Vip'
-
-      const about =
-  router.locale === 'en-US'
-    ? 'About'
-    : router.locale === 'pt'
-      ? 'Sobre'
-      : 'About'
-
-      const  contact =
-      router.locale === 'en-US'
-        ? 'Contact'
-        : router.locale === 'pt'
-          ? 'Contato'
-          : 'Contact'
-
   return (
     <s.Nav>
       <Container >
@@ -71,8 +45,8 @@ const Navba = () => {
                 <div className="navbar">
                   <ul className="navbar__unordered">
                     <li className="navbar__item"> <Link href="/"> Home </Link></li>
-                    <li className="navbar__item" > <a href="#about">{publics}</a></li>
-                    {/* <li className="navbar__item"><a href="#">Blog</a></li> */}
+                    <li className="navbar__item" > <Link href="/#abouts">Sobre</Link></li>
+                   
                     <li className="navbar__item" > <a href="#news"> {refound} </a> </li>
                     <li className="navbar__item"><a href="#course">{credit}</a></li>
                     {/* <li className="navbar__item"><a href="#others">{others}</a></li> */}

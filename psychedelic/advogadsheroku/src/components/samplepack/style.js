@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
-export const Contact = styled.div`
+export const Samplepack = styled.section`
+    
     a{
     color: white;
     @media (min-width: 600px) {
@@ -79,5 +80,4 @@ export const Contact = styled.div`
         display: block
     }
 }
-
 `
