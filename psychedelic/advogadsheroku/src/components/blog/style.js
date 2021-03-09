@@ -35,6 +35,7 @@ export const Blog = styled.div`
     h3{
         color: white;
         margin-bottom: 70px;
+        margin-left: 39px;
         @media (min-width: 600px) {
         
     }
