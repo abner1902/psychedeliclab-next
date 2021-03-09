@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-export const Samplepack = styled.section`
-    height: 500px
+export const Samplepack2 = styled.section`
+    
     a{
     color: white;
     @media (min-width: 600px) {
         
     }
     }
-    h2{
+    h5{
         text-align: center;
         color: white;
         margin-top: 100px;
@@ -17,13 +17,14 @@ export const Samplepack = styled.section`
     }
     }
     .img-responsive{
-    height: auto;
-    max-width: 100%;
-    margin-top: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    @media (min-width: 600px) {
+        height: auto;
+        max-width: 100%;
+        margin-top: 80px;
+        display: block;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        @media (min-width: 600px) {
         
     }
     } .blockblack {
