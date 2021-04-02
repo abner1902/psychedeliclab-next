@@ -16,13 +16,13 @@ const Blog = () => {
                     <div className="row">
                       <div className="col-xs-12 col-sm-12 col-lg-4"><a href="#" data-toggle="modal"
                         data-target="#blogdetail"><img src="packdrums.jpg" className="img-responsive"
-                          alt="music theme"  href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB"/></a></div>
+                          alt="music theme"  href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4"/></a></div>
                       <div className="col-xs-12  col-sm-6 col-lg-5 ">
-                        <h5><a href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB" data-toggle="modal" data-target="#blogdetail">Pack Drums</a></h5>
+                        <h5><a href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4" data-toggle="modal" data-target="#blogdetail">Pack Drums</a></h5>
                         <p>
                         </p>
                       </div>
-                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><a href="https://mega.nz/file/KEkDSCKa#s3h6eWJtqml0jK9VrUDkai12SRJ-oqo2IKRElDLCuDB"><GetAppIcon/></a></div>
+                      <div className="col-xs-12  col-sm-3 col-lg-3 date"><a href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4"><GetAppIcon/></a></div>
                     </div>
                   </li>
                   <li>
