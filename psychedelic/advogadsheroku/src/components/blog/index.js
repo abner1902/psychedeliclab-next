@@ -5,7 +5,7 @@ import * as s from './style.js'
 const Blog = () => {
   return (
     <s.Blog>
-      <div id="news" className="container">
+      <div id="links" className="container">
         <div id="blogevent" className="blockblack">
           <div className="row">
             <div className="col-md-6 col-xs-12">

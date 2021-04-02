@@ -4,10 +4,10 @@ import * as s from './style'
 const Psy = () => {
   return (
     <div className="container">
-      <s.Psy>
+      <s.Psy >
         <div className="blockblack">
-          <div id="about" className="spacer">
-            <h3><span className="glyphicon glyphicon-user"></span> Sobre</h3>
+          <div className="spacer">
+            <h3><span className="glyphicon glyphicon-user"></span> Sobre a Psychedelic Lab</h3>
             <div className="row">
               <div className="col-lg-6 col-sm-4  col-xs-12">
                 <img src="/psychedelicstudio.jpg" className="img-responsive" alt="about" />
