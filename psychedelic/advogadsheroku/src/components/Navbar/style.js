@@ -38,7 +38,7 @@ export const Nav = styled.nav`
     /* white-space: nowrap; */
     @media (min-width: 600px) {
     margin-left: 15px;
-    
+    padding: 10px 10px;
     span {
         display: none;
         @media (min-width: 600px) {

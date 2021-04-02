@@ -40,7 +40,7 @@ const Samplepack = () => {
   return (
     <s.Samplepack>
 
-    <div id="course"className="container">
+    <div id=""className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">

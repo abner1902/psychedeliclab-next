@@ -22,7 +22,7 @@ const Faq = () => {
   const classes = useStyles()
 
   return (
-    <s.Faq>
+    <s.Faq id="faq"> 
       <div className="container">
         <div className="blockblack">
           <h6>Perguntas frequentes sobre o curso de Darkpsy</h6>
