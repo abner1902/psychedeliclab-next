@@ -16,22 +16,6 @@ const Navba = () => {
   const router = useRouter()
 
 
- 
-
-      const refound =
-  router.locale === 'en-US'
-    ? 'Notícias'
-    : router.locale === 'pt'
-      ? 'News'
-      : 'Notícias'
-
-
-      const credit =
-  router.locale === 'en-US'
-    ? 'Cursos'
-    : router.locale === 'pt'
-      ? 'Courses'
-      : 'Cursos'
 
   return (
     <s.Nav>
@@ -45,15 +29,17 @@ const Navba = () => {
                 <div className="navbar">
                   <ul className="navbar__unordered">
                     <li className="navbar__item"> <Link href="/"> Home </Link></li>
-                    <li className="navbar__item" > <Link href="/#abouts">Sobre</Link></li>
-                   
-                    <li className="navbar__item" > <a href="#news"> {refound} </a> </li>
-                    <li className="navbar__item"><a href="#course">{credit}</a></li>
-                    {/* <li className="navbar__item"><a href="#others">{others}</a></li> */}
-                    {/* <li className="navbar__item" ><a href="#about">{about}</a></li> */}
-                    {/* <li className="navbar__item"><a href="#contacts">{contact}</a></li> */}
-                    {/* <li className="navbar__item"><span><Link href="/pt">BR</Link></span></li> */}
-                    {/* <li className="navbar__item"><span><Link href="/en-US">EN</Link></span></li> */}
+                    <li className="navbar__item"><a href="#album"> Tutoriais </a></li>
+                    <li className="navbar__item"><a href="#about"> Sobre</a></li>
+                    <li className="navbar__item" > <a href="#playlist"> Playlist </a> </li>
+                    <li className="navbar__item"><a href="#links"> Free Links & News </a></li>
+                    <li className="navbar__item"><a href="#telegram"> Comunidade </a></li>
+                    <li className="navbar__item" > <a href="#samplepack"> Sample Pack </a> </li>
+                    <li className="navbar__item"><a href="#faq"> FAQ</a></li>
+
+                    
+
+
                   </ul>
                 </div>
               </s.Nav>

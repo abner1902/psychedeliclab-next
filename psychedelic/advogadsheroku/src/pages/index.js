@@ -11,6 +11,7 @@ import Feed from '../components/feed/index'
 import Samplepack from '../components/samplepack/index'
 import Samplepack2 from '../components/samplepack2/samplepack2'
 import Abner from '../components/abner/index'
+
 const Home = () => (
   <div>
     <Navba />
