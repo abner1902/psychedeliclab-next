@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Samplepack = styled.section`
-    height: 500px
     a{
     color: white;
     @media (min-width: 600px) {
@@ -11,7 +10,7 @@ export const Samplepack = styled.section`
     h2{
         text-align: center;
         color: white;
-        margin-top: 100px;
+        margin-top: 150px;
         @media (min-width: 600px) {
         
     }

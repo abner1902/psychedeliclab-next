@@ -16,7 +16,7 @@ const Feed = () => {
               </div>
               <div className="col-lg-6 col-sm-12  col-xs-12">
                 <div className="telegram">
-                <p>Nossa comunidade no telegram</p>
+                <p> Entre agora na comunidade gratuita no telegram, <br/> e receba Links Free, Samples, Feedbacks e muito mais, conecte-se com a galera na mesma sintonia de psicodelizar.</p>
                 <Link href="https://t.me/psychedeliclab" ><button className="telegram-button">Clique aqui para acessar o canal.</button></Link>
               </div>
               </div>
