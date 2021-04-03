@@ -6,21 +6,16 @@ export const Feed = styled.section`
     .blockblack {
     background: rgba(0, 0, 0, 0.8);
     padding: 25px;
-    height: 800px;
+    height: 640px;
     border-color: none;
     @media (min-width: 600px) {
-        height: 600px;
+        height: 450px;
     }.telegram{
     position: relative;
     top: 100px;
 
     @media(min-width: 600px){
-        /* position: relative;
-        right: -180px;
-        margin-top: 50px;
-         margin-top: 49px; */
-        /* width: 296px; */
-        height: 219px;
+     height: 219px;
         right: -138px;
                 position: relative;
         border-radius: 29px;     
@@ -30,7 +25,7 @@ export const Feed = styled.section`
         border-radius: 12px;
         margin: 0px 0px;
         position: relative;
-        top: 59px;
+        
         padding: 7px 39px;
         display: block;
         color: white;
@@ -48,10 +43,9 @@ export const Feed = styled.section`
         padding: 20px 77px;
         }
     }p{
-        right: 0px;
-        font-size: 21px;
-        /* margin-top: 100px; */
-
+        font-size: 20px;
+        margin-top: 20px;
+       margin-right: 72px;
     @media(min-width: 600px){
         position: relative;
         right: -60px;

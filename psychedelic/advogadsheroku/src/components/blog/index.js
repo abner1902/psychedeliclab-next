@@ -69,33 +69,32 @@ const Blog = () => {
               <div className="ourblog">
                 <h3><span className="glyphicon glyphicon-book"></span>Se liga ai !</h3>
                 <ul className="row">
-                  <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
-                    className="col-xs-12 col-sm-3 col-lg-4"><img src="download.jpeg" className="img-responsive"
+                  <li className="row"><a href="https://agyasounds.bandcamp.com/album/hype-col-rio-ep" data-toggle="modal" data-target="#blogdetail"
+                    className="col-xs-12 col-sm-3 col-lg-4"><img src="curuja.jpg" className="img-responsive"
                       alt="music theme" /></a>
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
-                    <h5><a href="https://www.twitch.tv/videos/748176717" data-toggle="modal" data-target="#blogdetail">Darkpsy notícias </a></h5>
-                    <small>GNHOM LIVE</small>
-                    <p>
+                    <h5><a href="https://agyasounds.bandcamp.com/album/hype-col-rio-ep" data-toggle="modal" data-target="#blogdetail">Darkpsy notícias </a></h5>
+                    <p> Hype Colirio EP 2021
                     </p>
                   </div>
                   </li>
-                  <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
+                  <li className="row"><a href="https://web.facebook.com/Meleacoustics" data-toggle="modal" data-target="#blogdetail"
                     className="col-xs-12 col-sm-3 col-lg-4"><img src="acoustics.png" className="img-responsive-1"
                       alt="music theme" /></a>
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
                   <h5><a href="https://web.facebook.com/Meleacoustics" data-toggle="modal" data-target="#blogdetail"> Darkpsy Notícias</a></h5>
-                    <p>Painéis Acústicos em lã de rocha.
+                    <p>Painéis Acústicos em lã de rocha
                     </p>
                   </div>
                   </li>
-                  <li className="row"><a href="#" data-toggle="modal" data-target="#blogdetail"
+                  <li className="row"><a href="https://www.youtube.com/watch?v=LYwY8VTR1eE" data-toggle="modal" data-target="#blogdetail"
                     className="col-xs-12 col-sm-3 col-lg-4"><img src="saturn-2-feature-2 .jpg" className="img-responsive"
                       alt="music theme" /></a>
                   <div className="blogtext col-xs-12 col-sm-9  col-lg-8">
-                    <h5><a href="https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in" data-toggle="modal" data-target="#blogdetail"> Darkpsy Notícias </a></h5>
+                    <h5><a href="https://www.youtube.com/watch?v=LYwY8VTR1eE" data-toggle="modal" data-target="#blogdetail"> Darkpsy Notícias </a></h5>
                     <small></small>
                     <p>
-                      Plugin Fabfilter
+                      Saturn 2 Plugin Fabfilter
                     </p>
                   </div>
                   </li>

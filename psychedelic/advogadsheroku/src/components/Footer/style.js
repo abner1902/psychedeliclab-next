@@ -3,9 +3,12 @@ import styled from 'styled-components'
 export const Footer = styled.footer`
 
     background: black;
-    height: 400px;
+    height: 600px;
     color: white;
     margin-top: 100px;
+    @media (min-width: 600px){
+    height: 400px
+    }
     a{
         color: white;
     }
@@ -15,6 +18,11 @@ export const Footer = styled.footer`
     .footer{
     .footer__strong {
     font-weight: 900;
+    }.follow__list2{
+    li{
+        list-style-type: none;
+        display: flex;
+    }        
     }
     }
     }.footer__list{
@@ -38,7 +46,7 @@ export const Footer = styled.footer`
     list-style-type: none;
     padding-left: -10px;
    
-}
+    }
     @media (min-width: 600px){
     position: relative;
     }
@@ -55,7 +63,7 @@ export const Footer = styled.footer`
     top: 70px;
     left: 290px;
     position: relative;
-}
+    }
 
 } 
 `
