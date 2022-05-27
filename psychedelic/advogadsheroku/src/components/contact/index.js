@@ -68,7 +68,7 @@ const Contact = () => {
 
         </div>
         <div className="blockblack">
-        <Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor">Adquirir!</button></Link>
+        <Link href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-curso-de-darkpsy-modulo-ii/Q56274689Y" ><button className="btn btn-warning bgcolor">Adquirir!</button></Link>
           </div>
       </div>
       
