@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "12.18.0"
+    "node": "14.17.3"
   },
   "scripts": {
     "dev": "node server.js -p $PORT",
