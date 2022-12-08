@@ -6,9 +6,9 @@
     "node": "14.17.3"
   },
   "scripts": {
-    "dev": "node server.js -p $PORT",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js -p $PORT"
+    "start": "next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.2",
