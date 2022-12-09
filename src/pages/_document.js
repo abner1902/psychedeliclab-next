@@ -58,7 +58,7 @@ class MyDocument extends Document {
 
           
         </Head>
-        {/* <meta property="og:url" content="https://www.psychedeliclab.com.br" />
+        <meta property="og:url" content="https://www.psychedeliclab.com.br" />
         <meta name="og:title" content="Curso Darkpsy Psychedliclab" />
          <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
         <meta name="og:site_name" content="Psychedelic labb" />
@@ -71,7 +71,7 @@ class MyDocument extends Document {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Darkpsy course" />
         <meta name="twitter:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
-        <meta name="twitter:site" content="@asd" /> */}
+        <meta name="twitter:site" content="@asd" />
         <body>
           <Main />
           <NextScript />
