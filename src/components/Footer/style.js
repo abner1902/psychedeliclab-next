@@ -1,69 +1,157 @@
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
+  background: black;
+  color: white;
+  margin-top: 100px;
 
-    background: black;
-    height: 600px;
+  /* ❗ NUNCA usar height fixa no mobile */
+  min-height: 600px;
+
+  a {
     color: white;
-    margin-top: 100px;
-    @media (min-width: 600px){
-    height: 400px
-    }
-    a{
-        color: white;
-    }
-    @media (min-width: 600px){
+    text-decoration: none;
+  }
+
+  /* =========================
+     DESKTOP
+  ========================== */
+  @media (min-width: 600px) {
+    min-height: 400px;
     display: flex;
+    position: relative;
+  }
+
+  /* =========================
+     MOBILE FIX
+  ========================== */
+  @media (max-width: 599px) {
+    .footer .row {
+      display: flex;
+      flex-direction: column;
+      gap: 40px; /* espaçamento entre blocos */
     }
-    .footer{
-    .footer__strong {
-    font-weight: 900;
-    }.follow__list2{
-    li{
-        list-style-type: none;
-        display: flex;
-    }        
+
+    .footer__list,
+    .follow {
+      padding-left: 20px;
+      padding-right: 20px;
     }
+
+    .follow__item {
+      padding-left: 10px; /* evita texto colado */
+      padding-right: 10px;
     }
-    }.footer__list{
+
+    background: black; /* garante fundo preto */
+
+    .follow__item a,
+    .link-icon {
+      justify-content: flex-start;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* =========================
+     LISTA PRINCIPAL
+  ========================== */
+  .footer__list {
     list-style-type: none;
-    padding-top: 100px;
-    padding-left: -10px;  
+
+    /* 🔧 MOBILE */
+    padding-top: 40px;
+    padding-left: 0;
+    margin-bottom: 30px;
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    /* DESKTOP mantém seu espaçamento */
+    @media (min-width: 600px) {
+      padding-top: 100px;
+    }
+  }
+
+  .footer__strong {
+    font-weight: 900;
+    margin-bottom: 12px;
+  }
+
+  /* =========================
+     FOLLOW / SOCIAL
+  ========================== */
+  .follow {
+    margin-top: 30px;
 
     @media (min-width: 600px) {
+      margin: 97px 90px;
     }
-    }.follow{
+  }
 
-    @media (min-width: 600px){
-     margin: 97px 90px;
-    }
+  .follow__list {
+    list-style-type: none;
+    padding-left: 0;
+  }
 
-    }.follow__list{
-        
+  .follow__item {
+    margin-bottom: 10px;
+  }
+
+  /* 🔥 ISSO ARRUMA ÍCONE + TEXTO NO MOBILE + ALINHA À ESQUERDA */
+  .follow__item a,
+  .link-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start; /* alinhamento à esquerda */
+    width: 100%; /* ocupa toda a largura */
+    text-align: left; /* texto alinhado à esquerda */
+  }
+
+  /* =========================
+     AJUSTES GERAIS
+  ========================== */
+  .follow__inline {
     list-style-type: none;
-    }.follow__inline{
-    /* display: flex; */
-    list-style-type: none;
-    padding-left: -10px;
-   
-    }
-    @media (min-width: 600px){
-    position: relative;
-    }
-    }.follow__spacing{
+    padding-left: 0;
+  }
+
+  .follow__spacing {
     position: relative;
     margin-left: 45px;
     margin-top: -25px;
-    
-    }.logo{
-        
-    }.logo__footer{
+  }
 
-    @media (min-width: 600px){
-    top: 70px;
-    left: 290px;
-    position: relative;
+  .logo__footer {
+    @media (min-width: 600px) {
+      top: 70px;
+      left: 290px;
+      position: relative;
+    }
+  }
+
+  /* =========================
+     CRÉDITOS NO RODAPÉ
+  ========================== */
+  .footer__credits {
+    text-align: center;
+    font-size: 14px;
+    padding: 40px 20px 20px;
+    color: white;
+
+    @media (min-width: 600px) {
+      padding: 60px 0 20px;
     }
 
-} 
+    strong {
+      font-weight: 700;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
 `

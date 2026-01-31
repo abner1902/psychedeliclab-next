@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
-              <h2><span className="glyphicon glyphicon-envelope"></span>Entre para o mundo do Darkpsy !</h2>
+              <h2><span className="glyphicon glyphicon-envelope"></span><strong> Entre para o mundo do Darkpsy !</strong> </h2>
               <div className="row">
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
@@ -68,8 +68,9 @@ const Contact = () => {
 
         </div>
         <div className="blockblack">
-        <Link href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-curso-de-darkpsy-modulo-ii/Q56274689Y" ><button className="btn btn-warning bgcolor">Adquirir!</button></Link>
-          </div>
+<a href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-curso-de-darkpsy-modulo-ii/Q56274689Y" target="_blank" rel="noopener noreferrer">
+  <button className="btn btn-warning bgcolor">Adquirir!</button>
+</a>          </div>
       </div>
       
     </s.Contact>

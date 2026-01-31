@@ -69,7 +69,7 @@ const Samplepack = () => {
 
         </div>
         {/* <div className="blockblack">
-        <Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor">Adquirir!</button></Link>
+        <Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor"><strong>Adquirir!</strong></button></Link>
           </div> */}
       </div>
     </s.Samplepack>

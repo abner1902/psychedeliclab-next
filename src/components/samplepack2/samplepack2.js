@@ -3,34 +3,52 @@ import * as s from './style.js'
 import Link from 'next/link'
 import Slider from 'react-slick'
 
-
-
 const Samplepack2 = () => {
   return (
     <s.Samplepack2>
-
-    <div id="samplepack"className="container">
+      <div id="samplepack" className="container">
         <div className="blockblack">
           <div id="contact" className="spacer">
             <div className="contactform center">
-              <h5><span className="glyphicon glyphicon-envelope"></span>Para conseguir o Sample Pack, que contém mais de 50 sons, sintetizados por mim em minhas produções, usando os synths, Virus T.I. - Albino3 - Discovery - Serum - Surge - Pigments - Sylenth, acesse nossa comunidade do telegram e baixe gratuitamente e chegue mais perto da qualidade sonora que você tanto almeja!!</h5>
+              <h5>
+                <span className="glyphicon glyphicon-envelope"></span>
+                Para conseguir o Sample Pack, que contém mais de 50 sons, sintetizados por mim em minhas produções, usando os synths, Virus T.I. - Albino3 - Discovery - Serum - Surge - Pigments - Sylenth, acesse nossa comunidade do telegram e baixe gratuitamente e chegue mais perto da qualidade sonora que você tanto almeja!!
+              </h5>
               <div className="row">
-                <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
-                  <Slider >
+                <div className="col-md-12 col-sm-12 col-sm-offset-3">
+                  <Slider>
                     <div className="first-slider">
-                      <Link href=" https://t.me/psychedeliclab"><img src={require('../../../public/sample-pack-cover-art (1) (1).jpg')} className="img-responsive" alt="darkpsy"/></Link>
+                      <Link href="https://t.me/psychedeliclab">
+                        {/* O segredo está aqui: o src aponta direto para a raiz da pasta public */}
+                        <video 
+                          src="/sacred-sounds.mp4" 
+                          className="img-responsive" 
+                          autoPlay 
+                          loop 
+                          muted 
+                          playsInline
+                          style={{ 
+                            width: '100%', 
+                            cursor: 'pointer', 
+                            borderRadius: '8px',
+                            boxShadow: '0px 4px 15px rgba(0,0,0,0.5)' // Adicionei um brilho pra ficar mais darkpsy
+                          }}
+                        >
+                          Seu navegador não suporta vídeos.
+                        </video>
+                      </Link>
                     </div>
-                   
                   </Slider>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
         <div className="blockblack">
-        <Link href="https://t.me/psychedeliclab"><button className="btn btn-warning bgcolor">Clique aqui para acessar nosso canal!</button></Link>
-          </div>
+          <Link href="https://t.me/psychedeliclab">
+            <button className="btn btn-warning bgcolor">Clique aqui para acessar nosso canal!</button>
+          </Link>
+        </div>
       </div>
     </s.Samplepack2>
   )

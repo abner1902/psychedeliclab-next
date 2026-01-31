@@ -12,16 +12,23 @@ const About = () => {
                 <h1 className="bgcolor">
                   Darkpsy Portal
                 </h1><br />
-                <p className=" animated fadeInUp">Psychedelic lab  é a escola online, voltada para o ensino das vertentes do
-                DarkPsy, como Psycore, Forest, Hi-Tech, Suomi, Prog Dark, conceitos focados para esse gênero são
-              discutidos e compartilhados, em vídeos tutoriais, E-books e muito mais !</p>
+                <p className=" animated fadeInUp"><p>
+  O <strong>Psychedelic Lab</strong> é a <strong>primeira plataforma do Brasil</strong> dedicada exclusivamente ao ensino de <strong>produção musical para Dark Psytrance</strong>. Do <strong>Prog Dark</strong> ao <strong>High BPM</strong>, abrangemos todo o espectro do gênero, incluindo <strong>Forest, Psycore, Hi-Tech e Suomi</strong>. Entregamos o conhecimento técnico necessário para quem busca dominar as frequências mais intensas e complexas do underground.
+</p></p>
               </div>
             </div>
 
             <div className="col-sm-5 col-xs-12 col-sm-offset-1">
               <div className="player">
-                <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/702679552&color=%23391644&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                <iframe 
+  width="100%" 
+  height="280" 
+  src="https://www.youtube.com/embed/Onj0Nocvit0?si=SZTJGNyZgvSrNOgD" 
+  title="AbSycho no Universo Paralello" 
+  frameBorder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowFullScreen
+></iframe>
                 {/* <div
                     style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
                     <a href="https://soundcloud.com/agyasounds" title="Agya Sounds (OFICIAL)" target="_blank"
