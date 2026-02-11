@@ -48,16 +48,16 @@ const Contact = () => {
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
                     <div className="first-slider">
-                      <img src={require('../../../public/darkpsy.jpeg')} className="img-responsive" alt="darkpsy"/>
+                      <img src="/darkpsy.jpeg" className="img-responsive" alt="darkpsy"/>
                     </div>
                     <div className="slider-second">
                       <div className="slider__texts">
-                        <img src={require('../../../public/module.jpeg')} className="img-responsive" alt="darkpsy1"/>
+                        <img src="/module.jpeg" className="img-responsive" alt="darkpsy1"/>
                       </div>
                     </div>
                     <div className="slider-third">
                       <div className="slider__texts">
-                        <img src={require('../../../public/module2.jpeg')} className="img-responsive" alt="darkpsy2"/>
+                        <img src="/module2.jpeg" className="img-responsive" alt="darkpsy2"/>
                       </div>
                     </div>
                   </Slider>
@@ -65,14 +65,13 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
         </div>
         <div className="blockblack">
-<a href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-curso-de-darkpsy-modulo-ii/Q56274689Y" target="_blank" rel="noopener noreferrer">
-  <button className="btn btn-warning bgcolor">Adquirir!</button>
-</a>          </div>
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-curso-de-darkpsy-modulo-ii/Q56274689Y" target="_blank" rel="noopener noreferrer">
+            <button className="btn btn-warning bgcolor">Adquirir!</button>
+          </a>
+        </div>
       </div>
-      
     </s.Contact>
   )
 }

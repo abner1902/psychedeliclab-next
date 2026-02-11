@@ -49,16 +49,13 @@ const Samplepack = () => {
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
                     <div className="first-slider">
-                      <Link href="psychedelic1233.png"><img src={require('../../../public/psychedelic2.png')} className="img-responsive" alt="darkpsy"/></Link>
                     </div>
                     <div className="slider-second">
                       <div className="slider__texts">
-                      <Link href="psychedelic1233.png"><img src={require('../../../public/psychedelic1.png')} className="img-responsive" alt="darkpsy1"/></Link>
                       </div>
                     </div>
                     <div className="slider-third">
                       <div className="slider__texts">
-                      <Link href="psychedelic1233.png"><img src={require('../../../public/Psychedelic3.png')} className="img-responsive" alt="darkpsy2"/></Link>
                       </div>
                     </div>
                   </Slider>
@@ -69,7 +66,6 @@ const Samplepack = () => {
 
         </div>
         {/* <div className="blockblack">
-        <Link href="https://www.hotmart.com/product/psychedelic-lab-curso-de-darkpsy-modulo-i/X44771110B" ><button className="btn btn-warning bgcolor"><strong>Adquirir!</strong></button></Link>
           </div> */}
       </div>
     </s.Samplepack>
