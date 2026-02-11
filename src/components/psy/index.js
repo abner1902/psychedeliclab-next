@@ -14,7 +14,7 @@ const Psy = () => {
               </div>
               <div className="col-lg-6 col-sm-8  col-xs-12">
 <p>
-  A <strong>Psychedelic Lab</strong> é a <strong>primeira plataforma do Brasil</strong> dedicada ao ensino profissional de <strong>Darkpsy</strong> e suas vertentes mais intensas: <strong>Forest, Hi-Tech, Psycore, Suomi e Prog Dark</strong>. Criada para guiar desde o produtor iniciante até o avançado, nossa missão é revelar os segredos que o mercado convencional ignora.
+  A <strong>Psychedelic Lab</strong> é a <strong>primeira Plataforma do Brasil</strong> dedicada ao ensino profissional de <strong>Darkpsy</strong> e suas vertentes mais intensas: <strong>Forest, Hi-Tech, Psycore, Suomi e Prog Dark</strong>. Criada para guiar desde o produtor iniciante até o avançado, nossa missão é revelar os segredos que o mercado convencional ignora.
 </p>
 
 <p>
