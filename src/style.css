@@ -3,15 +3,15 @@ body {
    background-size: cover;
    background-attachment: fixed;
    background-color: #000;
+   padding-top: 70px !important; /* Cria o buraco para a barra preta não cobrir o site */
+   overflow-x: hidden !important; /* Evita que o site "dance" para os lados */
+   overflow-y: visible !important; /* Garante que você consiga descer a página */
 }
 
 @media screen and (max-width: 992px) {
    body {
       background-image: url('/backmob.jpg');
       background-size: cover;
+      padding-top: 70px !important;
    }
-}.bgcolor {
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
 }
