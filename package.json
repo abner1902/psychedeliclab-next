@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -15,16 +15,16 @@
     "@material-ui/icons": "^4.9.1",
     "bootstrap": "^4.5.0",
     "express": "^4.17.1",
-    "next": "^10.0.4",
+    "next": "^12.3.4",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.4.0",
     "next-optimized-images": "^2.6.2",
     "next-seo": "^4.17.0",
     "path": "^0.12.7",
     "postcss": "8.4.21",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
     "react-slick": "^0.26.1",
     "react-swipeable-views": "^0.13.9",
