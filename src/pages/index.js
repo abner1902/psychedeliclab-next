@@ -1,4 +1,4 @@
-import Navba from '../components/Navbar'
+import Navbar from '../components/Navbar'
 import React from 'react'
 import About from '../components/about/index'
 import Psy from '../components/psy/index'
@@ -7,14 +7,15 @@ import Playlist from '../components/playlist/index'
 import Blog from '../components/blog/index'
 import Contact from '../components/contact/index'
 import Faq from '../components/faq/index'
-import Feed from '../components/feed/index'
 import Samplepack from '../components/samplepack/index'
 import Samplepack2 from '../components/samplepack2/samplepack2'
+import Testimonials from '../components/testimonials/index'
 import Abner from '../components/abner/index'
+import Telegram from '../components/telegram/index'
 
 const Home = () => (
   <div>
-    <Navba />
+    <Navbar />
     <About />
     <Psy />
     <Contact />
@@ -22,7 +23,8 @@ const Home = () => (
     <Abner />
     <Playlist />
     <Blog />
-    <Feed />
+    <Testimonials />
+    <Telegram />
     <Samplepack />
     <Samplepack2 />
     <Faq />

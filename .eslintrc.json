@@ -1,0 +1,19 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
+    "no-trailing-spaces": "off",
+    "indent": "off",
+    "semi": "off",
+    "quotes": "off",
+    "comma-dangle": "off",
+    "eol-last": "off",
+    "no-multiple-empty-lines": "off",
+    "padded-blocks": "off",
+    "react/jsx-no-target-blank": "warn",
+    "react/react-in-jsx-scope": "off"
+  }
+}

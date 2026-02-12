@@ -1,4 +1,3 @@
-// import App from 'next/app'
 import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"

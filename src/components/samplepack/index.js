@@ -1,29 +1,6 @@
 import React from 'react'
-import * as s from './style.js'
-import Link from 'next/link'
+import * as s from './style'
 import Slider from 'react-slick'
-
-function SampleNextArrow (props) {
-  const { className, style, onClick } = props
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'block' }}
-      onClick={onClick}
-    />
-  )
-}
-
-function SamplePrevArrow (props) {
-  const { className, style, onClick } = props
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'flex' }}
-      onClick={onClick}
-    />
-  )
-}
 
 const settings = {
   dots: true,
@@ -32,41 +9,31 @@ const settings = {
   speed: 2500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  nextArrow: <SampleNextArrow />,
-  prevArrow: <SamplePrevArrow />
 }
 
 const Samplepack = () => {
   return (
     <s.Samplepack>
-
-    <div id=""className="container">
-        <div className="blockblack">
-          <div id="contact" className="spacer">
-            <div className="contactform center">
-              <h2><span className="glyphicon glyphicon-envelope"></span>O que a galera esta achando do curso de produção de Darkpsy?</h2>
-              <div className="row">
-                <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
-                  <Slider {...settings}>
-                    <div className="first-slider">
-                    </div>
-                    <div className="slider-second">
-                      <div className="slider__texts">
-                      </div>
-                    </div>
-                    <div className="slider-third">
-                      <div className="slider__texts">
-                      </div>
-                    </div>
-                  </Slider>
-                </div>
-              </div>
-            </div>
+      <div className="container">
+        <h2 className="section-title">Veja os módulos do curso de produção de Darkpsy</h2>
+        
+        <Slider {...settings}>
+          <div className="module-slide">
+            <img 
+              src="/module.jpeg" 
+              alt="Módulo 1 do curso de Darkpsy" 
+              className="module-image"
+            />
           </div>
-
-        </div>
-        {/* <div className="blockblack">
-          </div> */}
+          
+          <div className="module-slide">
+            <img 
+              src="/module2.jpeg" 
+              alt="Módulo 2 do curso de Darkpsy" 
+              className="module-image"
+            />
+          </div>
+        </Slider>
       </div>
     </s.Samplepack>
   )

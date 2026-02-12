@@ -19,7 +19,7 @@ const Abner = () => {
 
               <div className="col-lg-6 col-sm-8 col-xs-12">
                 {/* O paddingLeft abaixo separa o texto da foto */}
-                <div style={{ textAlign: 'justify', paddingLeft: '15px' }}>
+                <div style={{ textAlign: 'left', paddingLeft: '15px' }}>
                   <p>
                     Direto de São Paulo, <strong>Absycho Live</strong> é o projeto principal de <strong>Abner Simão</strong>, que teve seu primeiro contato com a música eletrônica aos 11 anos de idade. De DJ em 2009 a produtor em 2012, Abner trilhou um caminho de superação: em uma época de pouco acesso à informação e conteúdos restritos ao inglês, ele lapidou sua <strong>característica sonora</strong> de forma autodidata. Essa busca pela originalidade no <strong>Forest e Darkpsy</strong> rendeu frutos raros, tendo suas músicas tocadas por lendas como <strong>Goa Gil</strong>, validando sua identidade única no underground.
                   </p>
