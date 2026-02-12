@@ -1,7 +1,7 @@
 import React from 'react'
 import * as s from './style'
 import Link from 'next/link'
-import Slider from 'react-slick'
+import Slider from '../SliderWrapper'
 
 function SampleNextArrow (props) {
   const { className, style, onClick } = props
