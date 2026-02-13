@@ -7,28 +7,28 @@ import Playlist from '../components/playlist/index'
 import Blog from '../components/blog/index'
 import Contact from '../components/contact/index'
 import Faq from '../components/faq/index'
-import Samplepack from '../components/samplepack/index'
 import Samplepack2 from '../components/samplepack2/samplepack2'
 import Testimonials from '../components/testimonials/index'
 import Abner from '../components/abner/index'
 import Telegram from '../components/telegram/index'
 
 const Home = () => (
-  <div>
+  <>
     <Navbar />
-    <About />
-    <Psy />
-    <Contact />
-    <Tuto />
-    <Abner />
-    <Playlist />
-    <Blog />
-    <Testimonials />
-    <Telegram />
-    <Samplepack />
-    <Samplepack2 />
-    <Faq />
-  </div>
+    <main role="main" aria-label="Conteúdo principal do curso de Darkpsy">
+        <About />
+      <Psy />
+      <Contact />
+      <Tuto />
+      <Abner />
+      <Playlist />
+      <Blog />
+      <Testimonials />
+      <Telegram />
+      <Samplepack2 />
+      <Faq />
+    </main>
+  </>
 )
 
 export default Home

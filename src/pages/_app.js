@@ -1,4 +1,5 @@
 import Footer from '../components/Footer'
+import Preloader from '../components/Preloader'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -7,8 +8,9 @@ import Head from 'next/head'
 import { DefaultSeo } from 'next-seo'
 import config from '../components/config/seo.json'
 
-const MyApp = ({ Component, pageProps,  }) => ( 
+const MyApp = ({ Component, pageProps }) => ( 
     <div>
+        <Preloader />
         <DefaultSeo {...config} />
 
          <Head>

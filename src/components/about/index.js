@@ -7,18 +7,18 @@ const About = () => {
       <div className="container overlay">
         <div id="home" className="homeinfo">
           <div className="row">
-            <div className="col-sm-6 col-xs-12">
+            <div className="col-lg-6 col-md-12 col-xs-12">
               <div className="fronttext">
                 <h1 className="bgcolor">
-                  Darkpsy Portal
+                  <strong>DARKPSY PORTAL</strong>
                 </h1><br />
-                <p className=" animated fadeInUp"><p>
-  A <strong>Psychedelic Lab</strong> é a <strong>primeira plataforma do Brasil</strong> dedicada exclusivamente ao ensino de <strong>produção musical para Dark Psytrance</strong>. Do <strong>Prog Dark</strong> ao <strong>High BPM</strong>, abrangemos todo o espectro do gênero, incluindo <strong>Forest, Psycore, Hi-Tech e Suomi</strong>. Entregamos o conhecimento técnico necessário para quem busca dominar as frequências mais intensas e complexas do underground.
-</p></p>
+                <p className="animated fadeInUp">
+                  A <strong>Psychedelic Lab</strong> é a <strong>primeira plataforma do Brasil</strong> dedicada exclusivamente ao ensino de <strong>produção musical para Dark Psytrance</strong>. Do <strong>Prog Dark</strong> ao <strong>High BPM</strong>, abrangemos todo o espectro do gênero, incluindo <strong>Forest, Psycore, Hi-Tech e Suomi</strong>. Entregamos o conhecimento técnico necessário para quem busca dominar as frequências mais intensas e complexas do underground.
+                </p>
               </div>
             </div>
 
-            <div className="col-sm-5 col-xs-12 col-sm-offset-1">
+            <div className="col-lg-6 col-md-12 col-xs-12">
               <div className="player">
                 <iframe 
   width="100%" 

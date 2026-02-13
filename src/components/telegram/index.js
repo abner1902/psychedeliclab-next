@@ -1,14 +1,13 @@
 import React from 'react'
 import * as s from './style'
-import { Section, SectionTitle, Card } from '../../styles/GlobalSection'
+import { SectionTitle, Card } from '../../styles/GlobalSection'
 
 const Telegram = () => {
   return (
     <s.TelegramWrapper id="telegram">
-      <Section>
-        <div className="container">
+      <div className="container">
+        <div className="blockblack">
           <SectionTitle>📢 Nossa Comunidade</SectionTitle>
-          
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <Card className="telegram-card">
@@ -41,7 +40,7 @@ const Telegram = () => {
             </div>
           </div>
         </div>
-      </Section>
+      </div>
     </s.TelegramWrapper>
   )
 }

@@ -11,7 +11,7 @@ const Blog = () => {
             {/* COLUNA DA ESQUERDA: FREE DOWNLOADS */}
             <div className="col-md-6 col-xs-12">
               <div className="events">
-                <h3><span className="glyphicon glyphicon-calendar"></span>Free Download</h3>
+                <h3><span className="glyphicon glyphicon-calendar"></span> <strong>FREE DOWNLOAD</strong></h3>
                 <ul>
                   <li>
                     <div className="row">
@@ -88,7 +88,7 @@ const Blog = () => {
             {/* COLUNA DA DIREITA: SE LIGA AI (NOTÍCIAS) */}
             <div className="col-md-5 col-md-offset-1 col-xs-12">
               <div className="ourblog">
-                <h3><span className="glyphicon glyphicon-book"></span>Se liga ai !</h3>
+                <h3><span className="glyphicon glyphicon-book"></span> <strong>SE LIGA AÍ!</strong></h3>
                 <ul className="row">
                   <li className="row">
                     <a href="https://agyasounds.bandcamp.com/album/pineal-vision-ep" target="_blank" rel="noopener noreferrer" className="col-xs-12 col-sm-3 col-lg-4">

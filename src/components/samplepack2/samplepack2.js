@@ -12,7 +12,7 @@ const Samplepack2 = () => {
             <div className="contactform center">
               <h5>
                 <span className="glyphicon glyphicon-envelope"></span>
-                Para conseguir o Sample Pack, que contém mais de 50 sons, sintetizados por mim em minhas produções, usando os synths, Virus T.I. - Albino3 - Discovery - Serum - Surge - Pigments - Sylenth, acesse nossa comunidade do telegram e baixe gratuitamente e chegue mais perto da qualidade sonora que você tanto almeja!!
+                Para conseguir o Sample Pack, que contém mais de 50 sons, sintetizados por mim em minhas produções, usando os synths, Virus T.I. - Albino3 - Discovery - Serum - Surge - Pigments - Sylenth, acesse nossa comunidade do telegram e baixe gratuitamente e chegue mais perto da qualidade sonora que você tanto almeja!
               </h5>
               <div className="row">
                 <div className="col-md-12 col-sm-12 col-sm-offset-3">

@@ -8,7 +8,7 @@ const Abner = () => {
       <div className="container">
         <div className="blockblack">
           <div className="spacer">
-            <h3><span className="glyphicon glyphicon-user"></span> Sobre o Autor</h3>
+            <h3><span className="glyphicon glyphicon-user"></span> <strong>SOBRE O AUTOR</strong></h3>
             
             {/* O segredo do alinhamento está nesta linha abaixo */}
             <div className="row" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>

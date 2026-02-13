@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  background: #000;
+  background: rgba(0, 0, 0, 0.75);
   padding: 80px 0;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
   .container {
     max-width: 1200px;

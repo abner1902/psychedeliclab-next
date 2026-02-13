@@ -1,6 +1,6 @@
 import React from 'react'
 import * as s from './style'
-import { Section, SectionTitle, SectionSubtitle, Card } from '../../styles/GlobalSection'
+import { SectionTitle, SectionSubtitle, Card } from '../../styles/GlobalSection'
 
 const testimonials = [
   {
@@ -29,11 +29,10 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <s.TestimonialsSection id="testimonials">
-      <Section>
-        <div className="container">
+      <div className="container">
+        <div className="blockblack">
           <SectionTitle>Depoimentos</SectionTitle>
           <SectionSubtitle>Quem aprende com a gente recomenda</SectionSubtitle>
-          
           <div className="testimonials-grid">
             {testimonials.map((item) => (
               <Card className="testimonial-card" key={item.id}>
@@ -49,7 +48,7 @@ const Testimonials = () => {
             ))}
           </div>
         </div>
-      </Section>
+      </div>
     </s.TestimonialsSection>
   )
 }

@@ -7,7 +7,7 @@ const Psy = () => {
       <s.Psy >
         <div className="blockblack">
           <div className="spacer">
-            <h3><span className="glyphicon glyphicon-user"></span> <strong>Sobre a Psychedelic Lab</strong></h3>
+            <h3><span className="glyphicon glyphicon-user"></span> <strong>SOBRE A PSYCHEDELIC LAB</strong></h3>
             <div className="row">
               <div className="col-lg-6 col-sm-4  col-xs-12">
                 <img src="/psychedelicstudio.jpg" className="img-responsive" alt="about" />

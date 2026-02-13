@@ -1,6 +1,23 @@
 import styled from 'styled-components'
 
 export const TelegramWrapper = styled.div`
+  padding: 60px 0 80px;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .blockblack {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 40px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .telegram-card {
     display: flex;
     flex-direction: column;

@@ -31,9 +31,11 @@ export const Samplepack2 = styled.section`
     background: rgba(0, 0, 0, 0.8);
     padding: 25px;
     border-color: none;
+    border-radius: 24px;   /* ← NOVA LINHA */
     @media (min-width: 600px) {
         
     }
+}
     }.bgcolor {
     background-color: black;
     border-radius: 12px; 

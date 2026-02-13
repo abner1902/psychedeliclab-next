@@ -1,6 +1,23 @@
 import styled from 'styled-components'
 
 export const TestimonialsSection = styled.div`
+  padding: 60px 0 80px;
+
+  .blockblack {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 40px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
   .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -9,6 +26,16 @@ export const TestimonialsSection = styled.div`
 
   .testimonial-card {
     padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: none;
+
+    &:hover {
+      border-color: rgba(255, 193, 7, 0.3);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      transform: translateY(-3px);
+    }
   }
 
   .avatar {

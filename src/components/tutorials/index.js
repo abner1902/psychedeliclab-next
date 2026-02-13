@@ -6,7 +6,7 @@ const Tuto = () => {
     <div className="container">
       <s.Tuto>
         <div id="album" className="blockblack">
-          <h3> Tutoriais</h3>
+          <h3><strong>TUTORIAIS</strong></h3>
           <div className="row">
             <div className="col-sm-3 col-xs-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/FC4qrLfLrGQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
