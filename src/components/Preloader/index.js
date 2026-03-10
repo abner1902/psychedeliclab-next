@@ -76,7 +76,7 @@ const Preloader = () => {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    const minDisplayTime = 800
+    const minDisplayTime = 200
     const startTime = Date.now()
 
     const hidePreloader = () => {
@@ -85,11 +85,12 @@ const Preloader = () => {
       setTimeout(() => setIsLoading(false), remaining)
     }
 
-    if (document.readyState === 'complete') {
+    // Use DOMContentLoaded for a faster perceived load time
+    if (document.readyState === 'interactive' || document.readyState === 'complete') {
       hidePreloader()
     } else {
-      window.addEventListener('load', hidePreloader)
-      return () => window.removeEventListener('load', hidePreloader)
+      document.addEventListener('DOMContentLoaded', hidePreloader)
+      return () => document.removeEventListener('DOMContentLoaded', hidePreloader)
     }
   }, [])
 

@@ -11,6 +11,11 @@ export const Footer = styled.footer`
   a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #FFD700;
+    }
   }
 
   /* =========================

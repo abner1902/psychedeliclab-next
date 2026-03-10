@@ -80,22 +80,6 @@ export const NavWrapper = styled.nav`
       display: inline-block !important;
     }
 
-    /* HOME – MESMO PADDING, MESMA LINHA, MESMA ALTURA */
-    .navbar__unordered .nav-item a[href="/"],
-    .navbar__unordered .nav-item a[href="/"]:link,
-    .navbar__unordered .nav-item a[href="/"]:visited,
-    .navbar__unordered .nav-item a[href="/"]:active,
-    .navbar__unordered .nav-item a[href="/"]:focus {
-      color: white !important;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-      font-weight: 700 !important;
-      text-decoration: none !important;
-      padding: 10px 0 !important;
-      font-size: 14px !important;
-      line-height: 1.2 !important;
-      display: inline-block !important;
-    }
-
     .navbar__unordered .nav-link:hover {
       color: #ffc107 !important;
     }

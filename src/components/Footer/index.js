@@ -10,6 +10,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp'
 import CloudQueueIcon from '@material-ui/icons/CloudQueue' 
 import CastConnectedIcon from '@material-ui/icons/CastConnected' 
 import MenuBookIcon from '@material-ui/icons/MenuBook' 
+import WebIcon from '@material-ui/icons/Web' 
 
 const Footer = () => (
   <s.Footer>
@@ -68,8 +69,8 @@ const Footer = () => (
                 </li>
 
                 <li className="follow__item">
-                  <a href="https://www.twitch.tv/absycho" target="_blank" rel="noopener noreferrer">
-                    <CastConnectedIcon /> <span>Twitch</span>
+                  <a href="https://agyasounds.com.br" target="_blank" rel="noopener noreferrer">
+                    <WebIcon /> <span>Agya Sounds</span>
                   </a>
                 </li>
 
