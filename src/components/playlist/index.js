@@ -8,7 +8,7 @@ const Playlist = () => {
         <div className="blockblack">
           <div id="playlist" className="spacer">
             <div className="row">
-              <div className="col-md-12 col-xs-12">
+              <div className="col-12">
                 <h3><span className="glyphicon glyphicon-list"></span> <strong>SONS DA NOSSA FAMÍLIA!</strong></h3>
                 <iframe width="100%" height="450" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1173630205&color=%236a2c95&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 {/* <div style={{font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100}}> */}

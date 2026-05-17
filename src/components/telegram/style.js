@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const TelegramWrapper = styled.div`
-  padding: 60px 0 80px;
+  padding: 0;
 
   .container {
     max-width: 1200px;
@@ -84,16 +84,21 @@ export const TelegramWrapper = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .telegram-card {
-      padding: 40px 25px;
+      padding: 24px 16px;
+    }
+    .telegram-icon-wrapper {
+      margin-bottom: 16px;
     }
     .telegram-description {
       font-size: 16px;
-      margin-bottom: 30px;
+      line-height: 1.55;
+      margin-bottom: 24px;
+      padding: 0 8px;
     }
     .telegram-button {
-      padding: 14px 30px;
+      padding: 14px 32px;
       font-size: 16px;
     }
   }

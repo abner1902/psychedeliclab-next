@@ -3,6 +3,7 @@ import * as s from './style'
 import { Navbar, NavbarBrand } from 'reactstrap'
 import { Container } from 'react-bootstrap'
 import Link from 'next/link'
+import MobileMenu from './MobileMenu'
 
 const Navba = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,7 +25,7 @@ const Navba = () => {
           {/* LOGO */}
           <NavbarBrand href="/">
             <img
-              src="/logo.jpg"
+              src="/logo.webp"
               alt="Psychedelic Lab - Curso de Darkpsy"
               title="Psychedelic Lab"
             />
@@ -71,7 +72,7 @@ const Navba = () => {
           </div>
         </Navbar>
       </Container>
-      {isOpen && <s.NavOverlay onClick={closeMenu} />}
+      <MobileMenu isOpen={isOpen} onClose={closeMenu} />
     </s.NavWrapper>
   )
 }

@@ -1,28 +1,32 @@
 import React from 'react'
 import * as s from './style'
 import { SectionTitle, SectionSubtitle, Card } from '../../styles/GlobalSection'
+import { SiSoundcloud } from 'react-icons/si'
 
 const testimonials = [
   {
     id: 1,
-    name: 'Rafael M.',
-    role: 'PRODUTOR MUSICAL',
-    text: 'O Psychedelic Lab mudou completamente minha forma de produzir Darkpsy. Técnicas avançadas que não se acha em lugar nenhum.',
-    avatar: '/avatar1.jpg'
+    name: 'Balanar',
+    role: 'PRODUTOR DE FOREST',
+    text: 'Depois das aulas de produção com a Psychedelic Lab, melhorei muito a minha concepção de mixagem e arranjo. As dicas de Serum 2 e os feedbacks nas minhas tracks foram fundamentais para evoluir.',
+    avatar: '/balanar-depoimento-foto.webp',
+    soundcloud: 'https://soundcloud.com/balanardj'
   },
   {
     id: 2,
-    name: 'Camila S.',
-    role: 'DJ & PRODUTORA',
-    text: 'Alcancei um nível profissional em poucos meses. Mentoria direta e conteúdo exclusivo. Recomendo demais!',
-    avatar: '/avatar2.jpg'
+    name: 'Symbiotronik',
+    role: 'PRODUTOR DE HI-TECH',
+    text: 'As aulas de produção e masterização profissional mudaram meu nível. Tive acompanhamento prático e teórico, incluindo revisão da minha track. Imprescindível para quem quer evoluir de verdade.',
+    avatar: '/fenyang.webp',
+    soundcloud: 'https://soundcloud.com/symbio-tronik'
   },
   {
     id: 3,
-    name: 'André L.',
-    role: 'INICIANTE EM HI-TECH',
-    text: 'Comecei do zero e hoje já lanço minhas tracks. A comunidade é incrível e o suporte é rápido.',
-    avatar: '/avatar3.jpg'
+    name: 'O.A.K',
+    role: 'PRODUTOR DE HIGH BPM',
+    text: 'Fiz todas as aulas presencialmente com o Abner antes do Psychedelic Lab existir online. As aulas tiveram um impacto enorme na evolução do meu som, principalmente em identidade sonora, síntese e visão artística.',
+    avatar: '/oak-foto.webp',
+    soundcloud: 'https://soundcloud.com/obscureaudiokernel'
   }
 ]
 
@@ -40,8 +44,15 @@ const Testimonials = () => {
                   <img src={item.avatar} alt={item.name} />
                 </div>
                 <div className="content">
-                  <p className="text">"{item.text}"</p>
-                  <h4 className="name">{item.name}</h4>
+                  <p className="text">{`"${item.text}"`}</p>
+                  <div className="name-wrapper">
+                    <h4 className="name">{item.name}</h4>
+                    {item.soundcloud && (
+                      <a href={item.soundcloud} target="_blank" rel="noopener noreferrer" className="soundcloud-link">
+                        <SiSoundcloud size={28} color="#ff5500" />
+                      </a>
+                    )}
+                  </div>
                   <span className="role">{item.role}</span>
                 </div>
               </Card>

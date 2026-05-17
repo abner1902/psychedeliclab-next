@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Playlist = styled.div`
-
     .img-responsive{
         display: block;
         height: auto;

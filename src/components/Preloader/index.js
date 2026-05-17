@@ -97,7 +97,7 @@ const Preloader = () => {
   return (
     <Overlay className={!isLoading ? 'fade-out' : ''} aria-hidden={!isLoading}>
       <Logo
-        src="/logo.jpg"
+        src="/logo.webp"
         alt="Psychedelic Lab"
       />
       <BrandText>Carregando...</BrandText>

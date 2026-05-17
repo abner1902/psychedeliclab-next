@@ -30,17 +30,20 @@ export const Footer = styled.footer`
   /* =========================
      MOBILE FIX
   ========================== */
-  @media (max-width: 599px) {
+  @media (max-width: 767px) {
+    margin-top: 48px !important;
+    min-height: auto;
+
     .footer .row {
       display: flex;
       flex-direction: column;
-      gap: 40px; /* espaçamento entre blocos */
+      gap: 32px;
     }
 
     .footer__list,
     .follow {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
 
     .follow__item {

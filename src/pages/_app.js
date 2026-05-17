@@ -4,12 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import '../style.css'
+import { LayoutGlobalStyles } from '../styles/LayoutGlobalStyles'
 import Head from 'next/head'
 import { DefaultSeo } from 'next-seo'
 import config from '../components/config/seo.json'
 
 const MyApp = ({ Component, pageProps }) => ( 
     <div>
+        <LayoutGlobalStyles />
         <Preloader />
         <DefaultSeo {...config} />
 
@@ -17,7 +19,7 @@ const MyApp = ({ Component, pageProps }) => (
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
             <meta charSet={'utf-8'} />
-            <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.jpeg" />
+            <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.webp" />
             <meta name="language" content="pt-br, en" />
             <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico" />
           </Head>

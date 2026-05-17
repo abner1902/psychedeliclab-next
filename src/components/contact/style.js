@@ -7,24 +7,28 @@ export const Contact = styled.div`
         
     }
     }
-    h2{
+    h2 {
         text-align: center;
         color: white;
-        margin-top: 100px;
-        @media (min-width: 600px) {
-        
+        margin-top: 0;
     }
-    }
-    .img-responsive{
+
+    .img-responsive {
         height: auto;
         max-width: 100%;
-        margin-top: 80px;
+        margin-top: 0;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        @media (min-width: 600px) {
-        
     }
+
+    @media (min-width: 768px) {
+        h2 {
+            margin-top: 100px;
+        }
+        .img-responsive {
+            margin-top: 80px;
+        }
     } .blockblack {
     background: rgba(0, 0, 0, 0.8);
     padding: 25px;

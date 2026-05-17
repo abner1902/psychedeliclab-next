@@ -9,10 +9,10 @@ const Psy = () => {
           <div className="spacer">
             <h3><span className="glyphicon glyphicon-user"></span> <strong>SOBRE A PSYCHEDELIC LAB</strong></h3>
             <div className="row">
-              <div className="col-lg-6 col-sm-4  col-xs-12">
-                <img src="/psychedelicstudio.jpg" className="img-responsive" alt="about" />
+              <div className="col-lg-6 col-sm-4  col-12">
+                <img src="/psychedelicstudio.webp" className="img-responsive" alt="about" />
               </div>
-              <div className="col-lg-6 col-sm-8  col-xs-12">
+              <div className="col-lg-6 col-sm-8  col-12">
 <p>
   A <strong>Psychedelic Lab</strong> é a <strong>primeira plataforma do Brasil</strong> dedicada ao ensino profissional de <strong>Darkpsy</strong> e suas vertentes mais intensas: <strong>Forest, Hi-Tech, Psycore, Suomi e Prog Dark</strong>. Criada para guiar desde o produtor iniciante até o avançado, nossa missão é revelar os segredos que o mercado convencional ignora.
 </p>

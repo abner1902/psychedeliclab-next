@@ -97,73 +97,85 @@ export const NavWrapper = styled.nav`
       padding: 0 20px;
     }
 
+    /* Menu mobile fica no componente MobileMenu */
     .navbar-collapse {
-      position: fixed;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      height: calc(100vh - 60px);
-      background: rgba(0, 0, 0, 0.98);
-      z-index: 10000;
-      transform: translateX(100%);
-      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: none !important;
     }
+  }
+`
 
-    .navbar-collapse.show {
-      transform: translateX(0);
-    }
+export const MobileBackdrop = styled.div`
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: fadeIn 0.25s ease;
 
-    .navbar__unordered {
-      list-style: none;
-      display: flex !important;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 
-    .navbar__unordered .nav-item {
-      margin-bottom: 30px;
-    }
+  @media (min-width: 992px) {
+    display: none;
+  }
+`
 
-    .navbar__unordered .nav-link {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-      font-weight: 700 !important;
-      color: white !important;
-      font-size: 24px !important;
-      text-decoration: none !important;
-      text-transform: uppercase !important;
-      letter-spacing: 2px !important;
-      padding: 12px 30px !important;
-      display: inline-block;
-      transition: all 0.3s ease;
-      border-radius: 30px;
-      background: transparent;
-      line-height: 1.2 !important;
-    }
+export const MobileDrawer = styled.aside`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: min(280px, 82vw);
+  height: 100vh;
+  padding: 80px 0 32px;
+  background: rgba(10, 10, 10, 0.94);
+  border-right: 1px solid rgba(255, 193, 7, 0.2);
+  box-shadow: 8px 0 32px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  animation: slideIn 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 
-    /* HOME MOBILE – MESMO TAMANHO, MESMO PESO, MESMO PADDING */
-    .navbar__unordered .nav-item a[href="/"],
-    .navbar__unordered .nav-item a[href="/"]:link,
-    .navbar__unordered .nav-item a[href="/"]:visited,
-    .navbar__unordered .nav-item a[href="/"]:active,
-    .navbar__unordered .nav-item a[href="/"]:focus {
-      color: white !important;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-      font-weight: 700 !important;
-      font-size: 24px !important;
-      padding: 12px 30px !important;
-      line-height: 1.2 !important;
-      text-decoration: none !important;
-      display: inline-block !important;
-    }
+  @keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
 
-    .navbar__unordered .nav-link:hover {
-      background: rgba(255, 193, 7, 0.15);
-      color: #ffc107 !important;
+  .mobile-menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-menu__item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .mobile-menu__link {
+    display: block;
+    width: 100%;
+    padding: 18px 28px 18px 16px;
+    text-align: right;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.2s ease, background 0.2s ease;
+
+    &:hover,
+    &:focus {
+      color: #ffc107;
+      background: rgba(255, 193, 7, 0.08);
+      outline: none;
     }
+  }
+
+  @media (min-width: 992px) {
+    display: none;
   }
 `
 
@@ -249,18 +261,3 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
   }
 `
 
-export const NavOverlay = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 9998;
-  backdrop-filter: blur(5px);
-  transition: all 0.3s ease;
-
-  @media (min-width: 992px) {
-    display: none !important;
-  }
-`

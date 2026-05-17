@@ -20,7 +20,7 @@ const Samplepack = () => {
         <Slider {...settings}>
           <div className="module-slide">
             <img 
-              src="/module.jpeg" 
+              src="/module.webp" 
               alt="Módulo 1 do curso de Darkpsy" 
               className="module-image"
             />
@@ -28,7 +28,7 @@ const Samplepack = () => {
           
           <div className="module-slide">
             <img 
-              src="/module2.jpeg" 
+              src="/module2.webp" 
               alt="Módulo 2 do curso de Darkpsy" 
               className="module-image"
             />

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Faq = styled.section`
   color: white !important;
-  padding: 40px 0; /* Espaço entre o FAQ e os outros blocos */
+  padding: 0;
 
   .blockblack {
     background: rgba(0, 0, 0, 0.8);
@@ -28,12 +28,14 @@ export const Faq = styled.section`
     text-transform: uppercase;
   }
 
-  /* Ajuste fino para o mobile */
   @media (max-width: 767px) {
-    padding: 20px 10px;
-    
-    .blockblack {
-      padding: 20px;
+    h6 {
+      font-size: clamp(18px, 4.8vw, 22px);
+      margin-bottom: 24px;
+    }
+
+    .faq-content {
+      margin-top: 0;
     }
   }
 `

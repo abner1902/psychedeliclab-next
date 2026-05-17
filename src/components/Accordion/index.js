@@ -4,10 +4,15 @@ import styled from 'styled-components'
 const AccordionWrapper = styled.div`
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 4px;
+  border-radius: 8px;
   margin-bottom: 8px;
   overflow: hidden;
   &:first-of-type { margin-top: 0; }
+
+  @media (max-width: 767px) {
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
 `
 
 const AccordionSummary = styled.button`
@@ -16,6 +21,13 @@ const AccordionSummary = styled.button`
   align-items: center;
   justify-content: space-between;
   padding: 16px 24px;
+
+  @media (max-width: 767px) {
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.45;
+    gap: 8px;
+  }
   background: transparent;
   border: none;
   cursor: pointer;
@@ -37,6 +49,10 @@ const ExpandIcon = styled.span`
 
 const AccordionDetails = styled.div`
   padding: 0 24px;
+
+  @media (max-width: 767px) {
+    padding: 0 16px 16px;
+  }
   max-height: ${({ expanded }) => (expanded ? '2000px' : '0')};
   overflow: hidden;
   transition: max-height 0.3s ease;

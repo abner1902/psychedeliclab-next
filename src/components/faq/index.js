@@ -9,7 +9,7 @@ const Faq = () => {
         <div className="blockblack">
           <h6><strong>PERGUNTAS FREQUENTES SOBRE O CURSO DE DARKPSY</strong></h6>
           <div className="container">
-            <div style={{ width: '100%', marginTop: '80px' }}>
+            <div className="faq-content">
               <Accordion summary="O Curso é gravado? Como eu tenho acesso ao conteúdo?">
                 O curso de Darkpsy é 100% gravado, voce terá acesso vitalício, e mais surpresas na sua área de membros. O login é enviado para seu e-mail imediatamente após a confirmação da compra.
               </Accordion>

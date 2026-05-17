@@ -8,7 +8,7 @@ const Tuto = () => {
         <div id="album" className="blockblack">
           <h3><strong>TUTORIAIS</strong></h3>
           <div className="row">
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/FC4qrLfLrGQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
              
@@ -16,7 +16,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/UAHw7OS-vkI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
           
@@ -24,7 +24,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/rknLXpKqYEI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
          
@@ -32,7 +32,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive"src="https://www.youtube.com/embed/6HVX2zH9CEw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                 
@@ -40,7 +40,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/flUkXJpD270" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
              
@@ -48,7 +48,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/UmyVEJOZE-s" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                 
@@ -56,7 +56,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/8n7lgQD2koo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                  
@@ -64,7 +64,7 @@ const Tuto = () => {
               </div>
             </div>
 
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-12">
               <div className="album"><iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/uis99Zz-5DU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="albumdetail">
                 

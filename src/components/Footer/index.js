@@ -96,15 +96,14 @@ const Footer = () => (
       <div className="footer__credits">
         <p>© 2026 Psychedelic Lab. Todos os direitos reservados.</p>
         <p>
-          Design por <strong>Abner Simão Design</strong> (
-          <a 
-            href="https://www.instagram.com/abnersimao.design/" 
-            target="_blank" 
+          Desenvolvido por{' '}
+          <a
+            href="https://www.abnersimao.com.br/"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            Abner Simão Design
           </a>
-          )
         </p>
       </div>
     </div>

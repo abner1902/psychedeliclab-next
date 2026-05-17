@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const TestimonialsSection = styled.div`
-  padding: 60px 0 80px;
+  padding: 0;
 
   .blockblack {
     background: rgba(0, 0, 0, 0.8);
@@ -62,7 +62,37 @@ export const TestimonialsSection = styled.div`
     font-style: italic;
   }
 
+    .name-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 5px;
+  }
+
   .name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .soundcloud-link {
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+
+  .soundcloud-icon {
+    width: 22px;
+    height: 22px;
+    fill: #ff5500;
+  }
+  /* removido anterior */
+  .disabled_name {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: white;
@@ -79,9 +109,19 @@ export const TestimonialsSection = styled.div`
     font-weight: 600;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .testimonials-grid {
       grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .testimonial-card {
+      padding: 24px 16px;
+    }
+
+    .text {
+      font-size: 15px;
+      margin-bottom: 16px;
     }
   }
 `
