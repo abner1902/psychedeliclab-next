@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic'
 import Navbar from '../components/Navbar'
 import Psy from '../components/psy/index'
 import Tuto from '../components/tutorials/index'
-import Playlist from '../components/playlist/index'
-import Blog from '../components/blog/index'
+const Playlist = dynamic(() => import('../components/playlist/index'), { ssr: false })
+const Blog = dynamic(() => import('../components/blog/index'), { ssr: false })
 import Contact from '../components/contact/index'
-import Faq from '../components/faq/index'
-import Samplepack2 from '../components/samplepack2/samplepack2'
+const Faq = dynamic(() => import('../components/faq/index'), { ssr: false })
+const Samplepack2 = dynamic(() => import('../components/samplepack2/samplepack2'), { ssr: false })
 import Testimonials from '../components/testimonials/index'
 import Abner from '../components/abner/index' 
 import Telegram from '../components/telegram/index'

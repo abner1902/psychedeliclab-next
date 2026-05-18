@@ -1,18 +1,21 @@
-const withImages = require('next-images')
-const withPlugins = require('next-compose-plugins')
-const optimizedImages = require('next-optimized-images')
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: { 
+    domains: [], 
+    formats: ['image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+  compiler: { 
+    styledComponents: true,
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  optimizeFonts: true,
+  productionBrowserSourceMaps: false,
+  poweredByHeader: false,
+  compress: true,
+}
 
-module.exports = withImages({
-  webpack (config, options) {
-    return config
-  }
-})
-
-module.exports = withPlugins([
-  [optimizedImages, {
-    /* config for next-optimized-images */
-  }],
-
-  // your other plugins here
-
-]);
+module.exports = nextConfig

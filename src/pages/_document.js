@@ -4,6 +4,9 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
+    <link rel="preconnect" href="https://www.youtube.com" />
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="preconnect" href="https://www.google.com" />
         {/* Meta Pixel Code - Rastreio Módulo 1 e Módulo 2 */}
         <script
           dangerouslySetInnerHTML={{
