@@ -1,4 +1,5 @@
 import React from 'react'
+import OptimizedImage from '../OptimizedImage'
 import * as s from './style'
 import Link from 'next/link'
 import Slider from 'react-slick'
@@ -48,16 +49,16 @@ const Contact = () => {
                 <div className=" col-md-12 col-sm-12 col-sm-offset-3 ">
                   <Slider {...settings}>
                     <div className="first-slider">
-                      <img src="/darkpsy.webp" className="img-responsive" alt="darkpsy"/>
+                      <OptimizedImage src="/darkpsy.webp" alt="darkpsy" width={1280} height={719} className="img-responsive" />
                     </div>
                     <div className="slider-second">
                       <div className="slider__texts">
-                        <img src="/module.webp" className="img-responsive" alt="darkpsy1"/>
+                        <OptimizedImage src="/module.webp" alt="darkpsy1" width={1280} height={719} className="img-responsive" />
                       </div>
                     </div>
                     <div className="slider-third">
                       <div className="slider__texts">
-                        <img src="/module2.webp" className="img-responsive" alt="darkpsy2"/>
+                        <OptimizedImage src="/module2.webp" alt="darkpsy2" width={1280} height={719} className="img-responsive" />
                       </div>
                     </div>
                   </Slider>

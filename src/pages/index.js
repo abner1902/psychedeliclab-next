@@ -1,4 +1,5 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Navbar from '../components/Navbar'
 import Psy from '../components/psy/index'
 import Tuto from '../components/tutorials/index'

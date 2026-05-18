@@ -1,4 +1,5 @@
 import React from 'react'
+import OptimizedImage from '../OptimizedImage'
 import * as s from './style'
 
 const Psy = () => {
@@ -10,7 +11,7 @@ const Psy = () => {
             <h3><span className="glyphicon glyphicon-user"></span> <strong>SOBRE A PSYCHEDELIC LAB</strong></h3>
             <div className="row">
               <div className="col-lg-6 col-sm-4  col-12">
-                <img src="/psychedelicstudio.webp" className="img-responsive" alt="about" />
+                <OptimizedImage src="/psychedelicstudio.webp" alt="about" width={500} height={332} className="img-responsive" />
               </div>
               <div className="col-lg-6 col-sm-8  col-12">
 <p>
