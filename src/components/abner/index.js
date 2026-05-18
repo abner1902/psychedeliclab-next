@@ -1,5 +1,4 @@
 import React from 'react'
-import OptimizedVideo from '../OptimizedVideo'
 import * as s from './style.js'
 
 const Abner = () => {
@@ -23,7 +22,13 @@ const Abner = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="player">
-                <OptimizedVideo videoId="Onj0Nocvit0" title="AbSycho" />
+                <iframe
+                  src="https://www.youtube.com/embed/Onj0Nocvit0"
+                  title="AbSycho"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
               </div>
             </div>
 

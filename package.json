@@ -11,6 +11,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@justinribeiro/lite-youtube": "^1.9.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "bootstrap": "^4.5.0",
