@@ -33,6 +33,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <s.TestimonialsSection id="testimonials">
+      <h2>DEPOIMENTOS</h2>
       <div className="container">
         <div className="blockblack">
           <SectionTitle>Depoimentos</SectionTitle>

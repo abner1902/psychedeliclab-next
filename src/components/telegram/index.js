@@ -5,13 +5,13 @@ import { SectionTitle, Card } from '../../styles/GlobalSection'
 const Telegram = () => {
   return (
     <s.TelegramWrapper id="telegram">
+      <h2>COMUNIDADE</h2>
       <div className="container">
         <div className="blockblack">
           <SectionTitle>📢 Nossa Comunidade</SectionTitle>
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <Card className="telegram-card">
-                {/* Ícone grande do Telegram */}
                 <div className="telegram-icon-wrapper">
                   <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
                     <path d="M9.417 15.181L11.5 21.5L20 4L4 9.5L9.417 12.181L15.5 8L9.417 15.181Z" fill="#ffc107"/>

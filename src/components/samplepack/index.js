@@ -13,9 +13,10 @@ const settings = {
 
 const Samplepack = () => {
   return (
-    <s.Samplepack>
+    <s.Samplepack id="samplepack">
       <div className="container">
-        <h2 className="section-title">Veja os módulos do curso de produção de Darkpsy</h2>
+        <h2 className="section-title">SAMPLE PACK</h2>
+        <h3 className="section-subtitle">Veja os módulos do curso de produção de Darkpsy</h3>
         
         <Slider {...settings}>
           <div className="module-slide">

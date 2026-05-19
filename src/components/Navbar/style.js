@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { NavbarToggler } from 'reactstrap'
 
 export const NavWrapper = styled.nav`
   position: fixed;
@@ -58,19 +57,13 @@ export const NavWrapper = styled.nav`
       margin-left: auto !important;
     }
 
-    .navbar__unordered .nav-link,
-    .navbar__unordered .nav-link:link,
-    .navbar__unordered .nav-link:visited,
-    .navbar__unordered .nav-link:active,
-    .navbar__unordered .nav-link:focus {
+    .navbar__unordered .nav-link {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
       font-weight: 700 !important;
       color: #ffffff !important;
       text-decoration: none !important;
       background: transparent !important;
       border: none !important;
-      outline: none !important;
-      box-shadow: none !important;
       padding: 10px 0 !important;
       font-size: 14px !important;
       text-transform: uppercase !important;
@@ -97,7 +90,6 @@ export const NavWrapper = styled.nav`
       padding: 0 20px;
     }
 
-    /* Menu mobile fica no componente MobileMenu */
     .navbar-collapse {
       display: none !important;
     }
@@ -148,10 +140,6 @@ export const MobileDrawer = styled.aside`
     padding: 0;
   }
 
-  .mobile-menu__item {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  }
-
   .mobile-menu__link {
     display: block;
     width: 100%;
@@ -166,11 +154,9 @@ export const MobileDrawer = styled.aside`
     color: rgba(255, 255, 255, 0.85);
     transition: color 0.2s ease, background 0.2s ease;
 
-    &:hover,
-    &:focus {
+    &:hover {
       color: #ffc107;
       background: rgba(255, 193, 7, 0.08);
-      outline: none;
     }
   }
 
@@ -179,7 +165,8 @@ export const MobileDrawer = styled.aside`
   }
 `
 
-export const NavbarTogglerStyled = styled(NavbarToggler)`
+// MUDANÇA AQUI: Trocamos styled(NavbarToggler) por styled.button
+export const NavbarTogglerStyled = styled.button`
   width: 48px !important;
   height: 48px !important;
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
@@ -190,17 +177,14 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
   align-items: center !important;
   justify-content: center !important;
   padding: 0 !important;
-  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
+  transition: all 0.3s ease !important;
   z-index: 10001 !important;
   cursor: pointer !important;
+  outline: none !important;
 
   &:hover {
     border-color: #ffc107 !important;
     background: rgba(255, 193, 7, 0.1) !important;
-  }
-  &:focus {
-    box-shadow: none !important;
-    outline: none !important;
   }
 
   .navbar-toggler-icon {
@@ -209,7 +193,7 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
     background: white !important;
     position: relative !important;
     display: block !important;
-    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
+    transition: all 0.3s ease !important;
   }
 
   .navbar-toggler-icon::before,
@@ -220,28 +204,13 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
     height: 2px !important;
     background: white !important;
     left: 0 !important;
-    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
+    transition: all 0.3s ease !important;
   }
 
-  .navbar-toggler-icon::before {
-    top: -8px !important;
-  }
-  .navbar-toggler-icon::after {
-    top: 8px !important;
-  }
+  .navbar-toggler-icon::before { top: -8px !important; }
+  .navbar-toggler-icon::after { top: 8px !important; }
 
-  &.collapsed .navbar-toggler-icon {
-    background: white !important;
-  }
-  &.collapsed .navbar-toggler-icon::before {
-    transform: rotate(0deg) !important;
-    top: -8px !important;
-  }
-  &.collapsed .navbar-toggler-icon::after {
-    transform: rotate(0deg) !important;
-    top: 8px !important;
-  }
-
+  /* Animação do X quando aberto */
   &:not(.collapsed) .navbar-toggler-icon {
     background: transparent !important;
   }
@@ -260,4 +229,3 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
     display: none !important;
   }
 `
-

@@ -13,11 +13,21 @@ export const Samplepack = styled.section`
   }
   
   .section-title {
-    font-size: clamp(24px, 4vw, 36px);
-    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    color: #ffb800;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
     margin-bottom: 40px;
-    line-height: 1.2;
+    font-weight: normal;
   }
   
   .module-slide {
@@ -59,11 +69,24 @@ export const Samplepack = styled.section`
         &:before {
           display: none !important;
         }
-        
-        &.slick-active {
-          background: #ffc107 !important;
-        }
       }
+      
+      &.slick-active button {
+        background: #ffc107 !important;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0;
+    
+    .section-title {
+      font-size: 1.5rem;
+    }
+    
+    .section-subtitle {
+      font-size: 1rem;
+      margin-bottom: 30px;
     }
   }
 `
