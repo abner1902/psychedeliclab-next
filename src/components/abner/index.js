@@ -1,5 +1,7 @@
 import React from 'react'
 import * as s from './style.js'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const Abner = () => {
   return (
@@ -22,12 +24,11 @@ const Abner = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="player">
-                <iframe loading="lazy"
-                  src="https://www.youtube.com/embed/Onj0Nocvit0"
-                  title="AbSycho"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
+                <LiteYouTubeEmbed 
+                  id="Onj0Nocvit0"
+                  title="AbSycho - Universo Paralello"
+                  poster="hqdefault"
+                  noCookie={true}
                 />
               </div>
             </div>

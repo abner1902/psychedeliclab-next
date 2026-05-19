@@ -1,5 +1,7 @@
 import React from 'react'
 import * as s from './style.js'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const About = () => {
   return (
@@ -22,16 +24,12 @@ const About = () => {
 
             <div className="col-lg-6 col-md-12 col-xs-12">
               <div className="player">
-                <iframe 
-                  loading="lazy" 
-                  width="100%" 
-                  height="280" 
-                  src="https://www.youtube.com/embed/Onj0Nocvit0?si=SZTJGNyZgvSrNOgD" 
-                  title="AbSycho no Universo Paralello" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="Onj0Nocvit0"
+                  title="AbSycho no Universo Paralello"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
               </div>
             </div>
           </div>

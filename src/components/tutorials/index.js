@@ -1,5 +1,7 @@
 import React from 'react'
 import * as s from './style'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const Tuto = () => {
   return (
@@ -12,17 +14,12 @@ const Tuto = () => {
             {/* Vídeo 1 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/FC4qrLfLrGQ" 
-                  title="Tutorial de Darkpsy - Introdução" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="FC4qrLfLrGQ"
+                  title="Tutorial de Darkpsy - Introdução"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -30,17 +27,12 @@ const Tuto = () => {
             {/* Vídeo 2 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/UAHw7OS-vkI" 
-                  title="Tutorial de Darkpsy - Kick e Bass" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="UAHw7OS-vkI"
+                  title="Tutorial de Darkpsy - Kick e Bass"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -48,17 +40,12 @@ const Tuto = () => {
             {/* Vídeo 3 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/rknLXpKqYEI" 
-                  title="Tutorial de Darkpsy - Leads e Synths" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="rknLXpKqYEI"
+                  title="Tutorial de Darkpsy - Leads e Synths"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -66,17 +53,12 @@ const Tuto = () => {
             {/* Vídeo 4 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/6HVX2zH9CEw" 
-                  title="Tutorial de Darkpsy - Efeitos" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="6HVX2zH9CEw"
+                  title="Tutorial de Darkpsy - Efeitos"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -84,17 +66,12 @@ const Tuto = () => {
             {/* Vídeo 5 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/flUkXJpD270" 
-                  title="Tutorial de Darkpsy - Arranjo" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="flUkXJpD270"
+                  title="Tutorial de Darkpsy - Arranjo"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -102,17 +79,12 @@ const Tuto = () => {
             {/* Vídeo 6 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/UmyVEJOZE-s" 
-                  title="Tutorial de Darkpsy - Mixagem" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="UmyVEJOZE-s"
+                  title="Tutorial de Darkpsy - Mixagem"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -120,17 +92,12 @@ const Tuto = () => {
             {/* Vídeo 7 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/8n7lgQD2koo" 
-                  title="Tutorial de Darkpsy - Masterização" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="8n7lgQD2koo"
+                  title="Tutorial de Darkpsy - Masterização"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
@@ -138,17 +105,12 @@ const Tuto = () => {
             {/* Vídeo 8 */}
             <div className="col-sm-3 col-12">
               <div className="album">
-                <iframe 
-                  loading="lazy" 
-                  width="560" 
-                  height="315" 
-                  className="img-responsive" 
-                  src="https://www.youtube.com/embed/uis99Zz-5DU" 
-                  title="Tutorial de Darkpsy - Sound Design" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+                <LiteYouTubeEmbed 
+                  id="uis99Zz-5DU"
+                  title="Tutorial de Darkpsy - Sound Design"
+                  poster="hqdefault"
+                  noCookie={true}
+                />
                 <div className="albumdetail"></div>
               </div>
             </div>
