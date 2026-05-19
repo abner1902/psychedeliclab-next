@@ -12,7 +12,7 @@ const Feed = () => {
               <h4>Nossa Comunidade</h4>
             <div className="row">
               <div className="col-lg-4 col-sm-12  col-xs-12">
-                <img src="/telegram.webp" className="img-responsives" alt="about" />
+                <img src="/telegram.webp" className="img-responsivesout" width="48" height="48" />
               </div>
               <div className="col-lg-6 col-sm-12  col-xs-12">
                 <div className="telegram">

@@ -41,7 +41,7 @@ const Testimonials = () => {
             {testimonials.map((item) => (
               <Card className="testimonial-card" key={item.id}>
                 <div className="avatar">
-                  <img src={item.avatar} alt={item.name} />
+                  <img src={item.avatar} alt={item.name} width="80" height="80" style={{ borderRadius: "50%" }} />
                 </div>
                 <div className="content">
                   <p className="text">{`"${item.text}"`}</p>

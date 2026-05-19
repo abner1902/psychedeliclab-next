@@ -33,7 +33,7 @@ export const TelegramWrapper = styled.div`
     
     svg {
       filter: drop-shadow(0 0 15px rgba(255, 193, 7, 0.4));
-      transition: all 0.3s ease;
+      transition: transform 0.3s ease, opacity 0.3s ease;
     }
   }
 
@@ -66,7 +66,7 @@ export const TelegramWrapper = styled.div`
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     border: 2px solid transparent;
 
     svg {
