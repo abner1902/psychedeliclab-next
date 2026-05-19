@@ -76,10 +76,6 @@ export const NavWrapper = styled.nav`
     .navbar__unordered .nav-link:hover {
       color: #ffc107 !important;
     }
-
-    .navbar-toggler {
-      display: none !important;
-    }
   }
 
   /* ========= MOBILE ========= */
@@ -165,7 +161,6 @@ export const MobileDrawer = styled.aside`
   }
 `
 
-// MUDANÇA AQUI: Trocamos styled(NavbarToggler) por styled.button
 export const NavbarTogglerStyled = styled.button`
   width: 48px !important;
   height: 48px !important;
@@ -173,7 +168,6 @@ export const NavbarTogglerStyled = styled.button`
   border-radius: 8px !important;
   background: transparent !important;
   position: relative !important;
-  display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   padding: 0 !important;
@@ -181,6 +175,9 @@ export const NavbarTogglerStyled = styled.button`
   z-index: 10001 !important;
   cursor: pointer !important;
   outline: none !important;
+  
+  /* CORRIGIDO: Mostra o botão no mobile */
+  display: flex !important;
 
   &:hover {
     border-color: #ffc107 !important;
@@ -207,25 +204,38 @@ export const NavbarTogglerStyled = styled.button`
     transition: all 0.3s ease !important;
   }
 
-  .navbar-toggler-icon::before { top: -8px !important; }
-  .navbar-toggler-icon::after { top: 8px !important; }
+  .navbar-toggler-icon::before { 
+    top: -8px !important; 
+  }
+  
+  .navbar-toggler-icon::after { 
+    top: 8px !important; 
+  }
 
-  /* Animação do X quando aberto */
-  &:not(.collapsed) .navbar-toggler-icon {
+  /* Animação do X quando aberto (usa .active) */
+  &.active .navbar-toggler-icon {
     background: transparent !important;
   }
-  &:not(.collapsed) .navbar-toggler-icon::before {
+  
+  &.active .navbar-toggler-icon::before {
     transform: rotate(45deg) !important;
     top: 0 !important;
     background: #ffc107 !important;
   }
-  &:not(.collapsed) .navbar-toggler-icon::after {
+  
+  &.active .navbar-toggler-icon::after {
     transform: rotate(-45deg) !important;
     top: 0 !important;
     background: #ffc107 !important;
   }
 
+  /* ESCONDE NO DESKTOP, MOSTRA NO MOBILE */
   @media (min-width: 992px) {
     display: none !important;
+  }
+  
+  /* GARANTIA: Mostra no mobile */
+  @media (max-width: 991px) {
+    display: flex !important;
   }
 `

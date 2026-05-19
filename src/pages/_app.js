@@ -19,15 +19,14 @@ const MyApp = ({ Component, pageProps }) => (
         <DefaultSeo {...config} />
 
         <Head>
-            {/* CORREÇÃO DE ACESSIBILIDADE: Permite zoom no mobile (exigência Lighthouse) */}
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
             <meta charSet="utf-8" />
             <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.webp" />
             <meta name="language" content="pt-br, en" />
             <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         </Head>
 
-        {/* FACEBOOK PIXEL OTIMIZADO: Carrega em segundo plano sem travar o First Paint */}
+        {/* FACEBOOK PIXEL OTIMIZADO */}
         <Script id="fb-pixel" strategy="lazyOnload">
             {`
               !function(f,b,e,v,n,t,s)
@@ -39,14 +38,14 @@ const MyApp = ({ Component, pageProps }) => (
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
               
-              fbq('init', '282337049275712'); // Módulo 2
-              fbq('init', '710855122954203'); // Módulo 1
+              fbq('init', '282337049275712');
+              fbq('init', '710855122954203');
               fbq('track', 'PageView');
             `}
         </Script>
 
         <Component {...pageProps} />
-        <Footer/>
+        <Footer />
     </>
 )
   
