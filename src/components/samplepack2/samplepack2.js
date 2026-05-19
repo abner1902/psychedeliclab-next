@@ -20,8 +20,8 @@ const Samplepack2 = () => {
                     <div className="first-slider">
                       <Link href="https://t.me/psychedeliclab">
                         {/* O segredo está aqui: o src aponta direto para a raiz da pasta public */}
-                        <video 
-                          src="/sacred-sounds.mp4" 
+                        <video preload="none" poster="/back1.webp" 
+                          src="https://res.cloudinary.com/dhwvctaal/video/upload/q_auto,f_auto/v1779213106/sacred-sounds_s5bdsv.mp4" 
                           className="img-responsive" 
                           autoPlay 
                           loop 
