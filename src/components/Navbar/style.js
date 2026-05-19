@@ -12,7 +12,7 @@ export const NavWrapper = styled.nav`
   display: flex;
   align-items: center;
   border-bottom: 1px solid #222;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
 
   .container {
     display: flex;
@@ -39,7 +39,7 @@ export const NavWrapper = styled.nav`
   img {
     height: 35px;
     width: auto;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
   }
 
   /* ========= DESKTOP ========= */
@@ -190,7 +190,7 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
   align-items: center !important;
   justify-content: center !important;
   padding: 0 !important;
-  transition: all 0.3s ease !important;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
   z-index: 10001 !important;
   cursor: pointer !important;
 
@@ -209,7 +209,7 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
     background: white !important;
     position: relative !important;
     display: block !important;
-    transition: all 0.3s ease !important;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
   }
 
   .navbar-toggler-icon::before,
@@ -220,7 +220,7 @@ export const NavbarTogglerStyled = styled(NavbarToggler)`
     height: 2px !important;
     background: white !important;
     left: 0 !important;
-    transition: all 0.3s ease !important;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease !important;
   }
 
   .navbar-toggler-icon::before {

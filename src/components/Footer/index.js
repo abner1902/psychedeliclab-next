@@ -40,12 +40,12 @@ const Footer = () => (
               <ul className="follow__list">
                 <li className="follow__strong"><strong>Conecte-se com a Lab</strong></li>
                 <li className="follow__item">
-                  <a href="https://api.whatsapp.com/send?phone=5511996670948&text=Olá! Vim pelo portal Psychedelic Lab" target="_blank" rel="noopener noreferrer">
+                  <a aria-label="WhatsApp" href="https://api.whatsapp.com/" aria-label="Falar no WhatsApp" target="_blank" rel="noopener noreferrer">
                     <FaWhatsapp /> <span>WhatsApp</span>
                   </a>
                 </li>
                 <li className="follow__item">
-                  <a href="https://www.instagram.com/labpsychedelic" target="_blank" rel="noopener noreferrer">
+                  <a aria-label="Instagram" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                     <FaInstagram /> <span>Instagram</span>
                   </a>
                 </li>
@@ -55,12 +55,12 @@ const Footer = () => (
                   </a>
                 </li>
                 <li className="follow__item">
-                  <a href="https://soundcloud.com/absycho" target="_blank" rel="noopener noreferrer">
+                  <a aria-label="SoundCloud" href="https://soundcloud.com/" aria-label="SoundCloud" target="_blank" rel="noopener noreferrer">
                     <FaSoundcloud /> <span>Soundcloud</span>
                   </a>
                 </li>
                 <li className="follow__item">
-                  <a href="https://www.facebook.com/Labpsychedelic" target="_blank" rel="noopener noreferrer">
+                  <a aria-label="Facebook" href="https://www.facebook.com/Labpsychedelic" target="_blank" rel="noopener noreferrer">
                     <FaFacebook /> <span>Facebook</span>
                   </a>
                 </li>

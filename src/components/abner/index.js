@@ -22,7 +22,7 @@ const Abner = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="player">
-                <iframe
+                <iframe loading="lazy"
                   src="https://www.youtube.com/embed/Onj0Nocvit0"
                   title="AbSycho"
                   frameBorder="0"

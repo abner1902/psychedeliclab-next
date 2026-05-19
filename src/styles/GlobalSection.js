@@ -59,7 +59,7 @@ export const Card = styled.div`
   border-radius: 20px;
   padding: 40px 30px;
   backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
   text-align: center;
 
   &:hover {

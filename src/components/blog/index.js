@@ -14,7 +14,7 @@ const Blog = () => {
                 <ul className="download-list">
                   <li className="download-item">
                     <a href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4" target="_blank" rel="noopener noreferrer" className="download-thumb">
-                      <img src="/packdrums.webp" className="img-responsive" alt="Pack Drums" />
+                      <img src="/packdrums.webp" width="300" height="200" className="img-responsive" alt="Pack Drums" />
                     </a>
                     <div className="download-info"><h5><a href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4" target="_blank" rel="noopener noreferrer">Pack Drums</a></h5></div>
                     <a href="https://mega.nz/file/iEc0GaqJ#FNs4bMfy1b7KHMB4PLo9lXTXxOc-yiSztROdLyhyhZ4" target="_blank" rel="noopener noreferrer" className="download-action" aria-label="Baixar Pack Drums">
@@ -23,7 +23,7 @@ const Blog = () => {
                   </li>
                   <li className="download-item">
                     <a href="https://mega.nz/file/Lds3jLKK#_T8c7bhgplGB3rHVM6SzD-D5-_aiGboftHikwd3fkKg" target="_blank" rel="noopener noreferrer" className="download-thumb">
-                      <img src="/kicka.webp" className="img-responsive" alt="Kick Samples" />
+                      <img src="/kicka.webp" width="300" height="200" className="img-responsive" alt="Kick Samples" />
                     </a>
                     <div className="download-info"><h5><a href="https://mega.nz/file/Lds3jLKK#_T8c7bhgplGB3rHVM6SzD-D5-_aiGboftHikwd3fkKg" target="_blank" rel="noopener noreferrer">Kick Samples</a></h5></div>
                     <a href="https://mega.nz/file/Lds3jLKK#_T8c7bhgplGB3rHVM6SzD-D5-_aiGboftHikwd3fkKg" target="_blank" rel="noopener noreferrer" className="download-action" aria-label="Baixar Kick Samples">
@@ -32,7 +32,7 @@ const Blog = () => {
                   </li>
                   <li className="download-item">
                     <a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" target="_blank" rel="noopener noreferrer" className="download-thumb">
-                      <img src="/Darkpsypreset.webp" className="img-responsive" alt="Darkpsy Preset" />
+                      <img src="/Darkpsypreset.webp" width="300" height="200" className="img-responsive" alt="Darkpsy Preset" />
                     </a>
                     <div className="download-info"><h5><a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" target="_blank" rel="noopener noreferrer">Darkpsy Preset</a></h5></div>
                     <a href="https://mega.nz/file/jRsBBC4R#Tiz9k77pOVn0vw3y5slliA29StzcRqDCAcnSs1NIfVc" target="_blank" rel="noopener noreferrer" className="download-action" aria-label="Baixar Darkpsy Preset">
@@ -41,7 +41,7 @@ const Blog = () => {
                   </li>
                   <li className="download-item">
                     <a href="https://mega.nz/file/PRtxCQgI#GMRqARaT7CY24dbyEhbto_Rn_fmuhutOK9mAiAdNjvc" target="_blank" rel="noopener noreferrer" className="download-thumb">
-                      <img src="/Wavetables.webp" className="img-responsive" alt="Wavetables" />
+                      <img src="/Wavetables.webp" width="300" height="200" className="img-responsive" alt="Wavetables" />
                     </a>
                     <div className="download-info"><h5><a href="https://mega.nz/file/PRtxCQgI#GMRqARaT7CY24dbyEhbto_Rn_fmuhutOK9mAiAdNjvc" target="_blank" rel="noopener noreferrer">Pack de Wavetables para o Serum</a></h5></div>
                     <a href="https://mega.nz/file/PRtxCQgI#GMRqARaT7CY24dbyEhbto_Rn_fmuhutOK9mAiAdNjvc" target="_blank" rel="noopener noreferrer" className="download-action" aria-label="Baixar Pack de Wavetables">
@@ -58,7 +58,7 @@ const Blog = () => {
                 <ul className="blog-list">
                   <li className="blog-item">
                     <a href="https://agyasounds.bandcamp.com/album/pineal-vision-ep" target="_blank" rel="noopener noreferrer" className="blog-thumb">
-                      <img src="/pineal.webp" className="img-responsive" alt="Pineal Vision" />
+                      <img src="/pineal.webp" width="300" height="200" className="img-responsive" alt="Pineal Vision" />
                     </a>
                     <div className="blog-content">
                       <h5><a href="https://agyasounds.bandcamp.com/album/pineal-vision-ep" target="_blank" rel="noopener noreferrer">Darkpsy notícias</a></h5>
@@ -67,7 +67,7 @@ const Blog = () => {
                   </li>
                   <li className="blog-item">
                     <a href="https://agyasounds.bandcamp.com/album/v-a-fungus-slug-compiled-by-ovni-messenger" target="_blank" rel="noopener noreferrer" className="blog-thumb">
-                      <img src="/fungus.webp" className="img-responsive" alt="Fungus Slug" />
+                      <img src="/fungus.webp" width="300" height="200" className="img-responsive" alt="Fungus Slug" />
                     </a>
                     <div className="blog-content">
                       <h5><a href="https://agyasounds.bandcamp.com/album/v-a-fungus-slug-compiled-by-ovni-messenger" target="_blank" rel="noopener noreferrer">Darkpsy Notícias</a></h5>
@@ -76,7 +76,7 @@ const Blog = () => {
                   </li>
                   <li className="blog-item">
                     <a href="https://www.reaper.fm/" target="_blank" rel="noopener noreferrer" className="blog-thumb">
-                      <img src="/reaper.webp" className="img-responsive" alt="Reaper DAW" />
+                      <img src="/reaper.webp" width="300" height="20" className="img-responsive" alt="Reaper DAW" />
                     </a>
                     <div className="blog-content">
                       <h5><a href="https://www.reaper.fm/" target="_blank" rel="noopener noreferrer">Darkpsy Notícias</a></h5>
