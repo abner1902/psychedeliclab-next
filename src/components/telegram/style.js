@@ -3,6 +3,17 @@ import styled from 'styled-components'
 export const TelegramWrapper = styled.div`
   padding: 0;
 
+  /* Título padrão (caso queira usar, mas não interfere no SectionTitle) */
+  h2 {
+    color: #ffb800;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -50,6 +61,7 @@ export const TelegramWrapper = styled.div`
     margin-bottom: 35px;
     max-width: 600px;
     font-weight: 400;
+    text-align: center;
   }
 
   .telegram-button {
@@ -68,6 +80,7 @@ export const TelegramWrapper = styled.div`
     letter-spacing: 1.5px;
     transition: transform 0.3s ease, opacity 0.3s ease;
     border: 2px solid transparent;
+    cursor: pointer;
 
     svg {
       transition: transform 0.3s ease;
@@ -85,6 +98,11 @@ export const TelegramWrapper = styled.div`
   }
 
   @media (max-width: 767px) {
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
     .telegram-card {
       padding: 24px 16px;
     }

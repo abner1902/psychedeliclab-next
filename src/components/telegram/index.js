@@ -5,7 +5,6 @@ import { SectionTitle, Card } from '../../styles/GlobalSection'
 const Telegram = () => {
   return (
     <s.TelegramWrapper id="telegram">
-      <h2>COMUNIDADE</h2>
       <div className="container">
         <div className="blockblack">
           <SectionTitle>📢 Nossa Comunidade</SectionTitle>
