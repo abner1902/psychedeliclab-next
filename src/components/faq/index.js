@@ -7,8 +7,10 @@ const Faq = () => {
     <s.Faq id="faq">
       <div className="container">
         <div className="blockblack">
-          <h2>PERGUNTAS FREQUENTES</h2>
-          <h3>Sobre o Curso de Darkpsy</h3>
+          <div className="faq-header">
+            <h2>PERGUNTAS FREQUENTES</h2>
+            <h3>Sobre o Curso de Darkpsy</h3>
+          </div>
           <div className="faq-content">
             <Accordion summary="O Curso é gravado? Como eu tenho acesso ao conteúdo?">
               O curso de Darkpsy é 100% gravado, você terá acesso vitalício, e mais surpresas na sua área de membros. O login é enviado para seu e-mail imediatamente após a confirmação da compra.
