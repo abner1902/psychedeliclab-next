@@ -48,7 +48,7 @@ const Testimonials = () => {
                   <div className="name-wrapper">
                     <h4 className="name">{item.name}</h4>
                     {item.soundcloud && (
-                      <a href={item.soundcloud} target="_blank" rel="noopener noreferrer" className="soundcloud-link">
+                      <a aria-label="Link de navegação" href={item.soundcloud} target="_blank" rel="noopener noreferrer" className="soundcloud-link">
                         <SiSoundcloud size={28} color="#ff5500" />
                       </a>
                     )}

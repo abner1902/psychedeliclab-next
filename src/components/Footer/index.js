@@ -14,21 +14,21 @@ const Footer = () => (
             <ul className="footer__list">
               <li className="footer__strong"><strong>Psychedelic Lab</strong></li>
               <li><Link href="/">Home</Link></li>
-              <li><a href="#album">Tutoriais</a></li>
-              <li><a href="#about">Sobre</a></li>
-              <li><a href="#faq">Perguntas Frequentes</a></li>
+              <li><a aria-label="Link de navegação" href="#album">Tutoriais</a></li>
+              <li><a aria-label="Link de navegação" href="#about">Sobre</a></li>
+              <li><a aria-label="Link de navegação" href="#faq">Perguntas Frequentes</a></li>
             </ul>
           </div>
 
           <div className="col-12 col-md-3">
             <ul className="footer__list">
               <li className="footer__strong"><strong>Conteúdo</strong></li>
-              <li><a href="#playlist">Playlist</a></li>
-              <li><a href="#news">Links & Notícias</a></li>
-              <li><a href="#telegram">Comunidade</a></li>
-              <li><a href="#samplepack">Sample Pack</a></li>
+              <li><a aria-label="Link de navegação" href="#playlist">Playlist</a></li>
+              <li><a aria-label="Link de navegação" href="#news">Links & Notícias</a></li>
+              <li><a aria-label="Link de navegação" href="#telegram">Comunidade</a></li>
+              <li><a aria-label="Link de navegação" href="#samplepack">Sample Pack</a></li>
               <li>
-                <a href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-apostila-oficial/D44881806W" target="_blank" rel="noopener noreferrer" className="link-icon">
+                <a aria-label="Link de navegação" href="https://hotmart.com/pt-br/marketplace/produtos/psychedelic-lab-apostila-oficial/D44881806W" target="_blank" rel="noopener noreferrer" className="link-icon">
                   <MdMenuBook /> Apostila Oficial
                 </a>
               </li>
@@ -50,7 +50,7 @@ const Footer = () => (
                   </a>
                 </li>
                 <li className="follow__item">
-                  <a href="https://agyasounds.com.br" target="_blank" rel="noopener noreferrer">
+                  <a aria-label="Link de navegação" href="https://agyasounds.com.br" target="_blank" rel="noopener noreferrer">
                     <FaGlobe /> <span>Agya Sounds</span>
                   </a>
                 </li>
@@ -75,7 +75,7 @@ const Footer = () => (
         <p>© 2026 Psychedelic Lab. Todos os direitos reservados.</p>
         <p>
           Desenvolvido por{' '}
-          <a href="https://www.abnersimao.com.br/" target="_blank" rel="noopener noreferrer">
+          <a aria-label="Link de navegação" href="https://www.abnersimao.com.br/" target="_blank" rel="noopener noreferrer">
             Abner Simão Design
           </a>
         </p>

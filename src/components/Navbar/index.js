@@ -45,28 +45,28 @@ const Navba = () => {
                 <Link href="/" onClick={closeMenu} className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <a href="#about" className="nav-link" onClick={closeMenu}>Sobre</a>
+                <a aria-label="Link de navegação" href="#about" className="nav-link" onClick={closeMenu}>Sobre</a>
               </li>
               <li className="nav-item">
-                <a href="#album" className="nav-link" onClick={closeMenu}>Tutoriais</a>
+                <a aria-label="Link de navegação" href="#album" className="nav-link" onClick={closeMenu}>Tutoriais</a>
               </li>
               <li className="nav-item">
-                <a href="#testimonials" className="nav-link" onClick={closeMenu}>Depoimentos</a>
+                <a aria-label="Link de navegação" href="#testimonials" className="nav-link" onClick={closeMenu}>Depoimentos</a>
               </li>
               <li className="nav-item">
-                <a href="#playlist" className="nav-link" onClick={closeMenu}>Playlist</a>
+                <a aria-label="Link de navegação" href="#playlist" className="nav-link" onClick={closeMenu}>Playlist</a>
               </li>
               <li className="nav-item">
-                <a href="#links" className="nav-link" onClick={closeMenu}>Free Links</a>
+                <a aria-label="Link de navegação" href="#links" className="nav-link" onClick={closeMenu}>Free Links</a>
               </li>
               <li className="nav-item">
-                <a href="#telegram" className="nav-link" onClick={closeMenu}>Comunidade</a>
+                <a aria-label="Link de navegação" href="#telegram" className="nav-link" onClick={closeMenu}>Comunidade</a>
               </li>
               <li className="nav-item">
-                <a href="#samplepack" className="nav-link" onClick={closeMenu}>Sample Pack</a>
+                <a aria-label="Link de navegação" href="#samplepack" className="nav-link" onClick={closeMenu}>Sample Pack</a>
               </li>
               <li className="nav-item">
-                <a href="#faq" className="nav-link" onClick={closeMenu}>FAQ</a>
+                <a aria-label="Link de navegação" href="#faq" className="nav-link" onClick={closeMenu}>FAQ</a>
               </li>
             </ul>
           </div>
