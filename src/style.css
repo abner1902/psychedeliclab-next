@@ -1,4 +1,4 @@
-body {
+body:not(.page-masterizacao) {
    background-image: url('/back1.webp');
    background-size: cover;
    background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-   body {
+   body:not(.page-masterizacao) {
       background-image: url('/backmob.webp');
       background-size: cover;
       padding-top: 70px !important;

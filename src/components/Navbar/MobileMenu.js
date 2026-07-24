@@ -5,6 +5,7 @@ import * as s from './style'
 const NAV_LINKS = [
   { href: '/', label: 'Home', isNextLink: true },
   { href: '#about', label: 'Sobre' },
+  { href: '/masterizacao', label: 'Masterização', isNextLink: true },
   { href: '#album', label: 'Tutoriais' },
   { href: '#testimonials', label: 'Depoimentos' },
   { href: '#playlist', label: 'Playlist' },

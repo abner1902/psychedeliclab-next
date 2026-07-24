@@ -14,6 +14,7 @@ const Footer = () => (
             <ul className="footer__list">
               <li className="footer__strong"><strong>Psychedelic Lab</strong></li>
               <li><Link href="/">Home</Link></li>
+              <li><Link href="/masterizacao">Masterização</Link></li>
               <li><a aria-label="Link de navegação" href="#album">Tutoriais</a></li>
               <li><a aria-label="Link de navegação" href="#about">Sobre</a></li>
               <li><a aria-label="Link de navegação" href="#faq">Perguntas Frequentes</a></li>

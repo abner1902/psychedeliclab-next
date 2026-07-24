@@ -7,7 +7,7 @@ export const NavWrapper = styled.nav`
   width: 100%;
   height: 70px;
   background: #000;
-  z-index: 9999;
+  z-index: 99999;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #222;
@@ -95,7 +95,7 @@ export const NavWrapper = styled.nav`
 export const MobileBackdrop = styled.div`
   position: fixed;
   inset: 0;
-  z-index: 9998;
+  z-index: 100000;
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -115,7 +115,7 @@ export const MobileDrawer = styled.aside`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10000;
+  z-index: 100001;
   width: min(280px, 82vw);
   height: 100vh;
   padding: 80px 0 32px;
@@ -172,7 +172,7 @@ export const NavbarTogglerStyled = styled.button`
   justify-content: center !important;
   padding: 0 !important;
   transition: all 0.3s ease !important;
-  z-index: 10001 !important;
+  z-index: 100002 !important;
   cursor: pointer !important;
   outline: none !important;
   

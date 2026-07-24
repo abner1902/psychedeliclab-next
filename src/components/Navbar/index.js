@@ -55,6 +55,9 @@ const Navbar = () => {
                 <a href="#about" className="nav-link" onClick={closeMenu}>Sobre</a>
               </li>
               <li className="nav-item">
+                <Link href="/masterizacao" className="nav-link" onClick={closeMenu}>Masterização</Link>
+              </li>
+              <li className="nav-item">
                 <a href="#album" className="nav-link" onClick={closeMenu}>Tutoriais</a>
               </li>
               <li className="nav-item">
