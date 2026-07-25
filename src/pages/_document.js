@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
+        <meta name="google-site-verification" content="OQLnKG5YE4FNfazyu_deb18gPdK17BhFIUvlR2xOfDo" />
         <link rel="preconnect" href="https://www.youtube.com" />
         <link rel="preconnect" href="https://i.ytimg.com" />
         <link rel="preconnect" href="https://www.google.com" />
