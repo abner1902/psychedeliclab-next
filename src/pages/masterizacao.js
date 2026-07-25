@@ -4,10 +4,38 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
 import EstilosAtendidos from "../components/EstilosAtendidos"
+import ProcessoMasterizacao from "../components/ProcessoMasterizacao"
+import TrabalhosRecentes from "../components/TrabalhosRecentes"
+import Diferencial from "../components/Diferencial"
+import dynamic from "next/dynamic"
+const AntesDepois = dynamic(() => import("../components/AntesDepois"), { ssr: false })
 import { Container } from "react-bootstrap"
 
 import { FiSend } from "react-icons/fi"
 import { Ear, Gauge, Target, Speaker, AudioLines } from "lucide-react"
+
+const smoothScrollTo = (targetId, offset = 100) => {
+  const target = document.getElementById(targetId)
+  if (!target) return
+
+  const startY = window.pageYOffset
+  const targetY = target.getBoundingClientRect().top + startY - offset
+  const distance = targetY - startY
+  const duration = 900
+  let startTime = null
+
+  const easeInOutCubic = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2)
+
+  const step = (currentTime) => {
+    if (startTime === null) startTime = currentTime
+    const elapsed = currentTime - startTime
+    const progress = Math.min(elapsed / duration, 1)
+    window.scrollTo(0, startY + distance * easeInOutCubic(progress))
+    if (progress < 1) requestAnimationFrame(step)
+  }
+
+  requestAnimationFrame(step)
+}
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -71,10 +99,17 @@ const MasterizacaoPage = () => {
                 </div>
 
                 <div className="cta-buttons">
-                  <a href="#contato" className="btn-custom btn-yellow">
+                  <a href="https://wa.me/5511996670948?text=Fala%20Abner!%20Curti%20o%20Psychedelic%20Lab%20e%20quero%20solicitar%20uma%20master%20para%20minha%20track." target="_blank" rel="noopener noreferrer" className="btn-custom btn-yellow">
                     <FiSend className="icon-btn" /> SOLICITAR MASTER
                   </a>
-                  <a href="#ouvir" className="btn-custom btn-gray">
+                  <a
+                    href="#ouvir"
+                    className="btn-custom btn-gray"
+                    onClick={(e) => {
+                      e.preventDefault()
+                      smoothScrollTo("ouvir", 100)
+                    }}
+                  >
                     <motion.div
                       animate={{ rotate: [0, -10, 10, -10, 10, 0] }}
                       transition={{ duration: 0.6, delay: 1.5, repeat: 0 }}
@@ -148,6 +183,18 @@ const MasterizacaoPage = () => {
             {/* SEÇÃO DE ESTILOS ATENDIDOS */}
             <EstilosAtendidos />
 
+            {/* SEÇÃO DE ANTES E DEPOIS */}
+            <AntesDepois />
+
+            {/* SEÇÃO DE PROCESSO DE MASTERIZAÇÃO */}
+            <ProcessoMasterizacao />
+
+            {/* SEÇÃO DE TRABALHOS RECENTES */}
+            <TrabalhosRecentes />
+
+            {/* SEÇÃO DE DIFERENCIAL */}
+            <Diferencial />
+
           </Container>
         </GlassOverlay>
       </MasterMain>
@@ -189,7 +236,7 @@ const GlassOverlay = styled.div`
   .master-container {
     max-width: 1278px;
   }
-`;;;
+`;
 
 const HeroCard = styled.div`
   background: rgba(0, 0, 0, 0.92);

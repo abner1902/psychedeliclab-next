@@ -32,12 +32,11 @@ const EstilosAtendidos = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        <div className="section-header">
+                <SectionHeader>
+          <p className="section-eyebrow">REFERÊNCIA SONORA</p>
           <h2 className="section-title">ESTILOS ATENDIDOS</h2>
-          <SubText>
-            Outros estilos eletrônicos podem ser atendidos mediante referência sonora.
-          </SubText>
-        </div>
+          <p className="section-description">Outros estilos eletrônicos podem ser atendidos mediante referência sonora.</p>
+        </SectionHeader>
 
         <GridWrapper>
           {estilosData.map((item, index) => {
@@ -73,6 +72,51 @@ const EstilosAtendidos = () => {
     </SectionWrapper>
   )
 }
+
+const SectionHeader = styled.div`
+  text-align: center;
+  margin-bottom: 50px;
+
+  .section-eyebrow {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #facc15;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+    font-family: 'Metropolis', sans-serif;
+    @media (max-width: 767px) {
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+    }
+  }
+
+  .section-title {
+    font-size: 2.618rem;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: -1px;
+    max-width: 900px;
+    margin: 0 auto 12px auto;
+    font-family: 'Metropolis', sans-serif;
+    @media (max-width: 767px) {
+      font-size: 1.618rem;
+    }
+  }
+
+  .section-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a1a1aa;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Metropolis', sans-serif;
+    @media (max-width: 767px) {
+      font-size: 0.9rem;
+    }
+  }
+`
 
 export default EstilosAtendidos
 
@@ -133,20 +177,40 @@ const SubText = styled.div`
 const GridWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
   gap: 25px;
   width: 100%;
   justify-items: center;
 
   @media (max-width: 1200px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
   }
 
   @media (max-width: 768px) {
+    grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 991px) {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
   }
 
   @media (max-width: 480px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
   }
 `
 
