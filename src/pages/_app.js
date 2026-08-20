@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import { useRouter } from 'next/router'
 import { DefaultSeo } from 'next-seo'
 import Footer from '../components/Footer'
 import Preloader from '../components/Preloader'
@@ -12,16 +13,19 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import '../style.css'
 
-const MyApp = ({ Component, pageProps }) => ( 
+const MyApp = ({ Component, pageProps }) => {
+    const router = useRouter()
+    const isMasterizacaoPage = router.pathname === '/masterizacao'
+
+    return (
     <>
         <LayoutGlobalStyles />
         <Preloader />
-        <DefaultSeo {...config} />
+        {!isMasterizacaoPage && <DefaultSeo {...config} />}
 
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
             <meta charSet="utf-8" />
-            <meta property="og:image" content="https://www.psychedeliclab.com.br/darkpsy.webp" />
             <meta name="language" content="pt-br, en" />
             <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         </Head>
@@ -47,6 +51,7 @@ const MyApp = ({ Component, pageProps }) => (
         <Component {...pageProps} />
         <Footer />
     </>
-)
+    )
+}
   
 export default MyApp

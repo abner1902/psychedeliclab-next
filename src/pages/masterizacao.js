@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import Head from "next/head"
+import { NextSeo } from "next-seo"
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
@@ -64,22 +64,33 @@ const MasterizacaoPage = () => {
 
   return (
     <>
-      <Head>
-        <title>Masterização Profissional para Psytrance | Psychedelic Lab</title>
-        <meta name="description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
-        <link rel="canonical" href="https://www.psychedeliclab.com.br/masterizacao" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.psychedeliclab.com.br/masterizacao" />
-        <meta property="og:title" content="Masterização Profissional para Psytrance | Psychedelic Lab" />
-        <meta property="og:description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
-        <meta property="og:image" content="https://www.psychedeliclab.com.br/masterizacao-thumb.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Masterização Profissional para Psytrance | Psychedelic Lab" />
-        <meta name="twitter:description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
-        <meta name="twitter:image" content="https://www.psychedeliclab.com.br/masterizacao-thumb.jpg" />
-      </Head>
+      <NextSeo
+        title="Masterização Profissional para Psytrance | Psychedelic Lab"
+        description="Master online para música eletrônica. Master feita por produtor, não por algoritmo."
+        canonical="https://www.psychedeliclab.com.br/masterizacao"
+        openGraph={{
+          type: "website",
+          url: "https://www.psychedeliclab.com.br/masterizacao",
+          title: "Masterização Profissional para Psytrance | Psychedelic Lab",
+          description: "Master online para música eletrônica. Master feita por produtor, não por algoritmo.",
+          siteName: "Psychedelic Lab",
+          locale: "pt_BR",
+          images: [
+            {
+              url: "https://www.psychedeliclab.com.br/masterizacao-thumb.jpg",
+              width: 1200,
+              height: 630,
+              alt: "Masterização Profissional para Psytrance - Psychedelic Lab",
+            },
+          ],
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+          title: "Masterização Profissional para Psytrance | Psychedelic Lab",
+          description: "Master online para música eletrônica. Master feita por produtor, não por algoritmo.",
+          image: "https://www.psychedeliclab.com.br/masterizacao-thumb.jpg",
+        }}
+      />
 
       <Navbar />
 
