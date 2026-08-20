@@ -67,6 +67,7 @@ const MasterizacaoPage = () => {
       <Head>
         <title>Masterização Profissional para Psytrance | Psychedelic Lab</title>
         <meta name="description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
+        <link rel="canonical" href="https://www.psychedeliclab.com.br/masterizacao" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.psychedeliclab.com.br/masterizacao" />
         <meta property="og:title" content="Masterização Profissional para Psytrance | Psychedelic Lab" />
