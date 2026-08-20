@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abner-simao-design.vercel.app/sitemap.xml
+Sitemap: https://www.psychedeliclab.com.br/sitemap.xml

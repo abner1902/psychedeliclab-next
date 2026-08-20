@@ -67,6 +67,17 @@ const MasterizacaoPage = () => {
       <Head>
         <title>Masterização Profissional | Psychedelic Lab & Agya Sounds</title>
         <meta name="description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.psychedeliclab.com.br/masterizacao" />
+        <meta property="og:title" content="Masterização Profissional | Psychedelic Lab & Agya Sounds" />
+        <meta property="og:description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
+        <meta property="og:image" content="https://www.psychedeliclab.com.br/masterizacao-thumb.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Masterização Profissional | Psychedelic Lab & Agya Sounds" />
+        <meta name="twitter:description" content="Master online para música eletrônica. Master feita por produtor, não por algoritmo." />
+        <meta name="twitter:image" content="https://www.psychedeliclab.com.br/masterizacao-thumb.jpg" />
       </Head>
 
       <Navbar />
